@@ -1,0 +1,1 @@
+#I have been working on setting up my raspberry pi 4 and my SSH interpreter along with researching Tkinter and finding a compatible RFID reader, so I have not started writing code yet.
