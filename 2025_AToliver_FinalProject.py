@@ -9,6 +9,7 @@ from tkinter import ttk
 
 my_rfid = qwiic_rfid.QwiicRFID()
 
+#print message that tells user if the RFID Reader is ready to use
 if my_rfid.begin():
     print("RFID reader is ready")
 
@@ -16,19 +17,22 @@ else:
     print("RFID reader is not ready")
     exit() #stop code if not connected
 
+#creates csv and JSON files to track  time, ID number, status, and points even after file is temporarily closed
 csv_file="rfid_log.csv"
 json_file="tag_status.json"
 
+#open existing JSON file to edit if one already exists-allows for data to be accessed and preserved over mutliple days
 if os.path.exists(json_file):
     with open(json_file, 'r') as f:
         tag_status = json.load(f)
+
     #convert last_scan strings back to datetime
     for tag in tag_status:
         tag_status[tag]["last_scan"]=datetime.fromisoformat(tag_status[tag]["last_scan"])
 else:
     tag_status = {}
 
-#create csv
+#create csv with time, ID number, status and points as column rows if one does not exist already-should only run once at the start of the software
 if not os.path.exists(csv_file):
     with open(csv_file, 'w', newline='') as f:
         writer = csv.writer(f)
@@ -38,7 +42,9 @@ while True:
     if my_rfid.available():
         tag_initial = my_rfid.get_tag()
         my_rfid.clear_tags()
-        tag_hex = ''.join(f'{b:02X}' for b in tag_initial)  # Convert to hex
+        #convert to hex
+        tag_hex = ''.join(f'{b:02X}' for b in tag_initial)
+        #check time
         now = datetime.now()
         print(f"Tag ID (hex): {tag_hex}")
 
@@ -68,7 +74,7 @@ while True:
             writer = csv.writer(f)
             writer.writerow([timestamp, tag_hex, status, tag_status[tag_hex]["points"]])
 
-        #save JSON over mutliple days
+        #save JSON over multiple days
         to_save = tag_status.copy()
         for tag in to_save:
             to_save[tag]["last_scan"] = to_save[tag]["last_scan"].isoformat()
