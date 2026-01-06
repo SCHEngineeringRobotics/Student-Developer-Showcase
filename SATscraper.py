@@ -178,7 +178,7 @@ def parse_block(block):
     else:
         passage_raw = block[passage_start:]
 
-    q["passage"] = clean(passage_raw)
+    q["passage"] = passage_raw.strip()
 
     # ----- Extract choices -----
     q["choices"] = parse_choices(block)
@@ -213,8 +213,8 @@ def parse_pdf(path):
     return questions
 
 if __name__ == "__main__":
-    input_pdf = "SAT Suite Question Bank - Results.pdf"  # <-- Make sure your renamed PDF is here
-    output_json = "parsed_sat_questions.json"
+    input_pdf = "SAT Suite Question Bank - Results2.pdf"  # <-- Make sure your renamed PDF is here
+    output_json = "parsed_sat_questions2.json"
 
     results = parse_pdf(input_pdf)
 
