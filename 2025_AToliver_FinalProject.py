@@ -1,4 +1,4 @@
-import qwiic_rfid
+import qwiic_rfid as rfid
 import csv
 from datetime import datetime, timedelta
 import os
@@ -30,7 +30,7 @@ scans_label = tk.Label(window, text="Total Scans: 0", font=("Arial", 12))
 scans_label.pack()
 
 #rfid setup
-my_rfid = qwiic_rfid.QwiicRFID()
+my_rfid = rfid.QwiicRFID()
 
 if my_rfid.begin():
     print("RFID reader is ready") #RFID is ready
