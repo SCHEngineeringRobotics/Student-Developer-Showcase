@@ -1,33 +1,10 @@
 import qwiic_rfid as rfid
 import csv
 from datetime import datetime, timedelta
-import os
+from os import path
 import json
 import tkinter as tk
-import time
 
-
-#setup tkinter
-window=tk.Tk()
-window.title("Forkomatic")
-window.geometry("500x350")
-title_label = tk.Label(window, text="Please Scan Your ID", font=("Arial", 20, "bold"))
-title_label.pack(pady=10)
-
-tag_label = tk.Label(window, text="Tag ID: --", font=("Arial", 12))
-tag_label.pack()
-
-status_label = tk.Label(window, text="Status: --", font=("Arial", 12))
-status_label.pack()
-
-last_scan_label = tk.Label(window, text="Last Scan: --", font=("Arial", 12))
-last_scan_label.pack()
-
-points_label = tk.Label(window, text="Points: 0", font=("Arial", 12))
-points_label.pack()
-
-scans_label = tk.Label(window, text="Total Scans: 0", font=("Arial", 12))
-scans_label.pack()
 
 #rfid setup
 my_rfid = rfid.QwiicRFID()
@@ -39,12 +16,34 @@ else:
     print("RFID reader is not ready") #RFID is not ready
     exit() #stop code if not connected
 
+#setup tkinter
+window=tk.Tk()
+window.title("Forkomatic")
+window.geometry("500x350")
+title_label = tk.Label(window, text="Please Scan Your ID", font=("Arial", 20, "bold"))
+title_label.pack(pady=10)
+
+tag_label = tk.Label(window, text="Tag ID: ", font=("Arial", 12))
+tag_label.pack()
+
+status_label = tk.Label(window, text="Status: ", font=("Arial", 12))
+status_label.pack()
+
+last_scan_label = tk.Label(window, text="Last Scan: ", font=("Arial", 12))
+last_scan_label.pack()
+
+points_label = tk.Label(window, text="Points: 0", font=("Arial", 12))
+points_label.pack()
+
+scans_label = tk.Label(window, text="Total Scans: 0", font=("Arial", 12))
+scans_label.pack()
+
 #file setup
 csv_file="rfid_log.csv"
 json_file="tag_status.json"
 
 #open existing JSON file to edit
-if os.path.exists(json_file):
+if path.exists(json_file):
     with open(json_file, 'r') as f:
         tag_status = json.load(f)
 
@@ -54,10 +53,11 @@ else:
     tag_status = {}
 
 #create csv
-if not os.path.exists(csv_file):
+if not path.exists(csv_file):
     with open(csv_file, 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(["timestamp", "tag_hex", "status", "points", "total_scans"])
+
 #sound function
 def beep(duration=0.1):
     my_rfid.set_buzzer(True)
@@ -65,7 +65,7 @@ def beep(duration=0.1):
 
 #RFID Function
 def scan_rfid():
-    if my_rfid.available():
+    if my_rfid.begin():
         tag_initial = my_rfid.get_tag()
         my_rfid.clear_tags()
         beep(0.15)
