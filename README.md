@@ -1,0 +1,3 @@
+To use this Prepster, the bare minimum is to download parsed_sat_questions.json and prepster.py to the same folder. Running and quitting the program using the window's close feature will automatically create a user_data.json for you.
+To use SATscraper.py download SATscraper.py and any of the pdfs in github to the same location. Next, go to line 252 in SATscraper.py and update the list of pdfs to the ones you intend to scrape. Running the program will create parsed_sat_question.json readable by Prepster.py
+To create your own pdfs, go to https://satsuiteeducatorquestionbank.collegeboard.org/ reading section -> select wanted questions -> click export -> select "With correct answers and explanations" -> export to pdf

@@ -1,4 +1,5 @@
 from tkinter import *
+from tkinter import font
 from random import randint
 import json
 import os
@@ -9,7 +10,7 @@ with open('parsed_sat_questions.json', 'r') as file:
 
 w = Tk()
 w.title('Prepster')
-w.minsize(260, 285)
+w.minsize(280, 285)
 
 #vars
 Information_and_Ideas, Craft_and_Structure, Expression_of_Ideas, Conventions = (
@@ -58,6 +59,7 @@ r = None
 time = 1
 tick = 0
 timer_job = None
+width = 1000
 
 #updates data from previous sessions
 go = True
@@ -112,8 +114,11 @@ def clear_usrData():
     print("cleared user data")
 
 def reset_questions():
-    global qCompleted
-    qCompleted = []
+    global qCompleted, qUncompleted, filteredQuestions
+    qCompleted.clear()
+    # Rebuild filteredQuestions and qUncompleted from rawQuestions
+    make_set()
+    print('Questions reset - qUncompleted: ', qUncompleted)
 
 def on_close():
     stats = {
@@ -144,7 +149,11 @@ def on_close():
 def update_timer():
     global timer_job, time, tick
     if tick % 10 == 0:
-        infoLabel.config(text=f"Questions remaining: {len(filteredQuestions)+1} | Time elapsed: {time}")
+        try:
+            infoLabel.config(
+                text=f"Last Question: {'Correct' if wasCorrect else f'Incorrect ({correct})'} | Questions remaining: {len(filteredQuestions) + 1} | Time elapsed: {time}")
+        except NameError:
+            infoLabel.config(text=f"Questions remaining: {len(filteredQuestions) + 1} | Time elapsed: {time}")
         time += 1
     tick += 1
     timer_job = w2.after(100, update_timer)
@@ -178,14 +187,9 @@ def cell(text, r, c): #makes editable cells for the table
     lbl.grid(row=r, column=c, sticky="nsew")
     cells[(r, c)] = lbl
 
-def resize(event):
-    passage.config(width=event.width)
-    question.config(width=event.width)
-
 def rand_question():
     global correct, filteredQuestions, time, currentDiff, currentDom
     time = 0
-    print('TEST')
     r = randint(0,len(qUncompleted)-1)
     qid = qUncompleted.pop(randint(0, len(qUncompleted) - 1))
     qCompleted.append(qid)
@@ -199,13 +203,16 @@ def rand_question():
     print('Correct: ' + correct)
     #update ui
     dataLabel.config(text=f"ID: {q['id']} | Test: {q['test']} | Domain: {q['domain']} | Skill: {q['skill']} | Difficulty: {q['difficulty']}")
-    passage.config(text=q['passage'])
-    question.config(text=q['question'])
+    passage.config(text=q['passage'],width=width)
+    question.config(text=q['question'],width=width)
     ansA.config(text=q['choices'][0]['text'])
     ansB.config(text=q['choices'][1]['text'])
     ansC.config(text=q['choices'][2]['text'])
     ansD.config(text=q['choices'][3]['text'])
-    infoLabel.config(text=f"Questions remaining: {len(filteredQuestions)+1} | Time elapsed: {time}")
+    try:
+        infoLabel.config(text=f"Last Question: {'Correct' if wasCorrect else f'Incorrect ({correct})'} | Questions remaining: {len(filteredQuestions)+1} | Time elapsed: {time}")
+    except NameError:
+        infoLabel.config(text=f"Questions remaining: {len(filteredQuestions)+1} | Time elapsed: {time}")
     return correct, r
 
 def record_answer(domain, difficulty, was_correct):
@@ -258,8 +265,8 @@ def update_table():
     cell(avg_times(all_times_last), 8, 4)
 
 def submit():
-    global numCorrect, numIncorrect, correct
-    if len(filteredQuestions) == 1:
+    global numCorrect, numIncorrect, correct, wasCorrect
+    if len(filteredQuestions) <= 1:
         submitButton.config(text="Complete test")
     wasCorrect = choice.get() == correct
     if wasCorrect:
@@ -274,15 +281,44 @@ def submit():
     try:
         correct, r = rand_question()
     except ValueError:
+        dataLabel.destroy()
+        passage.destroy()
+        question.destroy()
+        ansA.destroy()
+        ansB.destroy()
+        ansC.destroy()
+        ansD.destroy()
+        infoLabel.destroy()
+        submitButton.destroy()
+        w2.minsize(500, 350)
+        print('out of questions!')
+
+def skip():
+    global correct
+    if len(filteredQuestions) <= 1:
+        submitButton.config(text="Complete test")
+    try:
+        correct, r = rand_question()
+    except ValueError:
+        dataLabel.destroy()
+        passage.destroy()
+        question.destroy()
+        ansA.destroy()
+        ansB.destroy()
+        ansC.destroy()
+        ansD.destroy()
+        infoLabel.destroy()
+        submitButton.destroy()
+        w2.minsize(500, 350)
         print('out of questions!')
 
 def testing_window():
     global passage, question, ansA, ansB, ansC, ansD, choice, correct, dataLabel, infoLabel, submitButton, w2, all_times_last
     #window setup
-    w2 = Tk()
+    w2 = Toplevel()
     w2.title('Testing Window')
-    w2.minsize(720, 350)
-    w2.bind("<Configure>", resize)
+    w2.minsize(850, 250)
+    myFont = font.Font(family='Helvetica', size=15)
     #reset last dictionaries
     for d in domain_stats_last.values(): d["correct"] = d["total"] = 0
     for d in difficulty_stats_last.values(): d["correct"] = d["total"] = 0
@@ -294,24 +330,24 @@ def testing_window():
     #multiple choice choice
     choice = StringVar(value='', master=w2)
     #info row
-    dataLabel = Label(w2, text="data row")
+    dataLabel = Label(w2, text="data row", font=myFont)
     dataLabel.pack(fill="x", padx=5, pady=5)
     #packing
-    passage = Message(w2, text="Passage default")
+    passage = Message(w2, text="Passage default", font=myFont)
     passage.pack(anchor='w', expand=True, fill=BOTH)
 
-    question = Message(w2, text="Question default")
+    question = Message(w2, text="Question default", font=myFont)
     question.pack(anchor='w', expand=True, fill=BOTH)
 
-    ansA = Radiobutton(w2, variable=choice, value='A', wraplength=700, anchor='w', justify="left"); ansA.pack(anchor='w')
-    ansB = Radiobutton(w2, variable=choice, value='B', wraplength=700, anchor='w', justify="left"); ansB.pack(anchor='w')
-    ansC = Radiobutton(w2, variable=choice, value='C', wraplength=700, anchor='w', justify="left"); ansC.pack(anchor='w')
-    ansD = Radiobutton(w2, variable=choice, value='D', wraplength=700, anchor='w', justify="left"); ansD.pack(anchor='w')
+    ansA = Radiobutton(w2, variable=choice, value='A', wraplength=width, anchor='w', justify="left", font=myFont); ansA.pack(anchor='w')
+    ansB = Radiobutton(w2, variable=choice, value='B', wraplength=width, anchor='w', justify="left", font=myFont); ansB.pack(anchor='w')
+    ansC = Radiobutton(w2, variable=choice, value='C', wraplength=width, anchor='w', justify="left", font=myFont); ansC.pack(anchor='w')
+    ansD = Radiobutton(w2, variable=choice, value='D', wraplength=width, anchor='w', justify="left", font=myFont); ansD.pack(anchor='w')
 
-    infoLabel = Label(w2, text="info row")
-    infoLabel.pack(side="left")
+    infoLabel = Label(w2, text="info row", font=myFont); infoLabel.pack(side="left")
 
-    submitButton = Button(w2, text="Submit", command=submit); submitButton.pack(side="right")
+    submitButton = Button(w2, text="Submit", command=submit, font=myFont); submitButton.pack(side="right")
+    skipButton = Button(w2, text="Skip", command=skip, font=myFont); skipButton.pack(side="right")
 
     update_timer()
 
@@ -354,7 +390,7 @@ topFrame.grid_rowconfigure(1, weight=2)
 Button(topFrame, text="Start",command=testing_window).grid(row=0, column=0, columnspan=3, sticky="nsew")
 optionsFrame.grid(row=0, column=3, columnspan=3, sticky="nsew")
 Button(topFrame, text='Reset data', command=clear_usrData).grid(row=1, column=0, columnspan=2, sticky="nsew")
-Button(topFrame, text='Reset questions', command=lambda: qCompleted.clear()).grid(row=1, column=2, columnspan=2, sticky="nsew")
+Button(topFrame, text='Reset questions', command=reset_questions).grid(row=1, column=2, columnspan=2, sticky="nsew")
 Button(topFrame, text="Create set", command=make_set).grid(row=1, column=4, columnspan=2, sticky="nsew")
 make_set()
 
