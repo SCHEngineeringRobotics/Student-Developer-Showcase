@@ -2,235 +2,170 @@
   "last": {
     "domain times": {
       "Information and Ideas": [
-        90
+        6,
+        3,
+        2
       ],
-      "Craft and Structure": [
-        42,
-        35
-      ],
-      "Expression of Ideas": [
-        42,
-        24
-      ],
-      "Standard English Conventions": [
-        24,
-        60,
-        21,
-        18,
-        29,
-        41
-      ]
+      "Craft and Structure": [],
+      "Expression of Ideas": [],
+      "Standard English Conventions": []
     },
     "difficulty times": {
       "Easy": [
-        24,
-        90,
-        18,
-        35,
-        29,
-        41
+        2
       ],
       "Medium": [
-        21
+        3
       ],
       "Hard": [
-        42,
-        60,
-        42,
-        24
+        6
       ]
     },
     "overall times": [
-      24,
-      42,
-      90,
-      60,
-      21,
-      42,
-      18,
-      35,
-      29,
-      24,
-      41
+      6,
+      3,
+      2
     ],
     "domain": {
       "Information and Ideas": {
-        "correct": 1,
-        "total": 1
+        "correct": 0,
+        "total": 3
       },
       "Craft and Structure": {
-        "correct": 2,
-        "total": 2
+        "correct": 0,
+        "total": 0
       },
       "Expression of Ideas": {
-        "correct": 1,
-        "total": 2
+        "correct": 0,
+        "total": 0
       },
       "Standard English Conventions": {
-        "correct": 4,
-        "total": 6
+        "correct": 0,
+        "total": 0
       }
     },
     "difficulty": {
       "Easy": {
-        "correct": 5,
-        "total": 6
+        "correct": 0,
+        "total": 1
       },
       "Medium": {
-        "correct": 1,
+        "correct": 0,
         "total": 1
       },
       "Hard": {
-        "correct": 2,
-        "total": 4
+        "correct": 0,
+        "total": 1
       }
     },
     "overall": {
-      "correct": 8,
-      "total": 11
+      "correct": 0,
+      "total": 3
     }
   },
   "alltime": {
     "domain times": {
       "Information and Ideas": [
-        47,
-        62,
-        96,
-        90
+        50,
+        5,
+        3,
+        1,
+        2,
+        2,
+        4,
+        6,
+        3,
+        2
       ],
-      "Craft and Structure": [
-        24,
-        42,
-        35
-      ],
-      "Expression of Ideas": [
-        28,
-        39,
-        42,
-        24
-      ],
-      "Standard English Conventions": [
-        71,
-        25,
-        22,
-        24,
-        60,
-        21,
-        18,
-        29,
-        41
-      ]
+      "Craft and Structure": [],
+      "Expression of Ideas": [],
+      "Standard English Conventions": []
     },
     "difficulty times": {
       "Easy": [
-        47,
-        24,
-        25,
-        39,
-        22,
-        24,
-        90,
-        18,
-        35,
-        29,
-        41
+        4,
+        2
       ],
       "Medium": [
-        28,
-        62,
-        96,
-        21
+        3,
+        2,
+        3
       ],
       "Hard": [
-        71,
-        42,
-        60,
-        42,
-        24
+        50,
+        5,
+        1,
+        2,
+        6
       ]
     },
     "overall times": [
-      47,
-      28,
-      24,
-      71,
-      25,
-      39,
-      62,
-      96,
-      22,
-      24,
-      42,
-      90,
-      60,
-      21,
-      42,
-      18,
-      35,
-      29,
-      24,
-      41
+      50,
+      5,
+      3,
+      1,
+      2,
+      2,
+      4,
+      6,
+      3,
+      2
     ],
     "domain": {
       "Information and Ideas": {
-        "correct": 4,
-        "total": 4
+        "correct": 2,
+        "total": 10
       },
       "Craft and Structure": {
-        "correct": 3,
-        "total": 3
+        "correct": 0,
+        "total": 0
       },
       "Expression of Ideas": {
-        "correct": 2,
-        "total": 4
+        "correct": 0,
+        "total": 0
       },
       "Standard English Conventions": {
-        "correct": 5,
-        "total": 9
+        "correct": 0,
+        "total": 0
       }
     },
     "difficulty": {
       "Easy": {
-        "correct": 9,
-        "total": 11
+        "correct": 0,
+        "total": 2
       },
       "Medium": {
-        "correct": 3,
-        "total": 4
+        "correct": 1,
+        "total": 3
       },
       "Hard": {
-        "correct": 2,
+        "correct": 1,
         "total": 5
       }
     },
     "overall": {
-      "correct": 14,
-      "total": 20
+      "correct": 2,
+      "total": 10
     }
   },
   "qCompleted": [
-    "dbbbc5dd",
-    "11df9b99",
-    "760ee1db",
-    "a05cc490",
-    "8df848c1",
-    "a3204ab0",
-    "f2b3b53b",
-    "c95995bc",
-    "7edfb2c5",
-    "b7363ba2",
-    "e946a32e",
-    "04bfd364",
-    "54804e10",
-    "9debe79a",
-    "6e071432",
-    "403d7bb5",
-    "f5959727",
-    "de55ec71",
-    "05575bca",
-    "15d6d837",
-    "c071eca2",
-    "f339ee39",
-    "8a668840"
+    "a15b3219",
+    "d73a908a",
+    "8c1be131",
+    "ca5a3fb4",
+    "f1bfbed3",
+    "1281dfd5",
+    "95388117",
+    "cf956802",
+    "d748c3fd",
+    "ed314256",
+    "29f5c8c2",
+    "1ba5ad7a",
+    "75e07a4d",
+    "98d0a5d7",
+    "458b4a11",
+    "602b47c7",
+    "3543e6e2",
+    "702eb7e3"
   ]
 }

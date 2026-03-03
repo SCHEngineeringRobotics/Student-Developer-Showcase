@@ -1,0 +1,147 @@
+[
+  {
+    "id": "f1bfbed3",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "question": "Which choice most logically completes the text?",
+    "passage": "Marta Coll and colleagues\u2019 2010 Mediterranean Sea biodiversity census reported approximately 17,000 species, nearly double the\nnumber reported in Carlo Bianchi and Carla Morri\u2019s 2000 census\u2014a difference only partly attributable to the description of new\ninvertebrate species in the interim. Another factor is that the morphological variability of microorganisms is poorly understood\ncompared to that of vertebrates, invertebrates, plants, and algae, creating uncertainty about how to evaluate microorganisms as\nspecies. Researchers\u2019 decisions on such matters therefore can be highly consequential. Indeed, the two censuses reported similar\ncounts of vertebrate, plant, and algal species, suggesting that ______",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Coll and colleagues reported a much higher number of species than Bianchi and Morri did largely due to the inclusion of invertebrate species that had not been described at the time of Bianchi and Morri\u2019s census."
+      },
+      {
+        "label": "B",
+        "text": "some differences observed in microorganisms may have been treated as variations within species by Bianchi and Morri but treated as indicative of distinct species by Coll and colleagues."
+      },
+      {
+        "label": "C",
+        "text": "Bianchi and Morri may have been less sensitive to the degree of morphological variation displayed within a typical species of microorganism than Coll and colleagues were."
+      },
+      {
+        "label": "D",
+        "text": "the absence of clarity regarding how to differentiate among species of microorganisms may have resulted in Coll and colleagues underestimating the number of microorganism species."
+      }
+    ],
+    "correct": "B",
+    "rationale": "Choice B is the best answer because it presents the conclusion that most logically completes the text\u2019s discussion of the different counts of species in the Mediterranean Sea. The text states that Coll and colleagues reported almost double the number of species that Bianchi and Morri reported in their study ten years earlier. According to the text, this difference can only be partly attributed to new invertebrate species being described in the years between the two studies, which means there must be an additional factor that made Coll and colleagues\u2019 count so much higher than Bianchi and Morri\u2019s count. The text goes on to explain that factor: researchers have a relatively poor understanding of microorganisms\u2019 morphological variability, or the differences in microorganisms\u2019 structure and form. This poor understanding makes it hard to classify microorganisms by species and means that researchers\u2019 decisions about classifying microorganisms can have a large effect on the overall species counts that researchers report. Additionally, the text says that the two censuses reported similar numbers of vertebrate, plant, and algal species, which means that the difference in overall species did not come from differences in those categories. Given all this information, it most logically follows that Coll and colleagues may have treated some of the differences among microorganisms as indicative of the microorganisms being different species, whereas Bianchi and Morri treated those differences as variations within species, resulting in Coll and colleagues reporting many more species than Bianchi and Morri did. Choice A is incorrect because the text explicitly addresses this issue by stating that the description of new invertebrate species in the years between the two studies can explain only part of the difference in the number of species reported by the studies. The focus of the text is on explaining the difference between Coll and colleagues\u2019 count and Bianchi and Morri\u2019s count that cannot be accounted for by the inclusion of invertebrate species that had not been described at the time of Bianchi and Morri\u2019s study. Choice C is incorrect because nothing in the text suggests that Bianchi and Morri may have been less sensitive to how much the form and structure of microorganisms vary within the same species than Coll and colleagues were. If Bianchi and Morri had been less sensitive to within-species variation than Coll and colleagues were, Bianchi and Morri would likely have reported more species than Coll and colleagues did, since less sensitivity to within-species variation would lead researchers to classify as different species microorganisms that more sensitive researchers would classify as variations within the same species. The text indicates, however, that Bianchi and Morri reported far fewer species than Coll and colleagues did; since the text also excludes other explanations for this difference, it suggests that in fact Bianchi and Morri were more sensitive to within-species variation than Coll and colleagues were, leading Bianchi and Morri to report fewer overall species. Choice D is incorrect because the text is focused on explaining why Coll and colleagues reported many more species than Bianchi and Morri did, and an underestimate of the number of microorganism species by Coll and colleagues would not explain that difference\u2014it would suggest, in fact, that the difference in the number of species should have been even larger."
+  },
+  {
+    "id": "87aa7bab",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central and Ideas Details",
+    "difficulty": "Medium",
+    "question": "Based on the text, what can be concluded about the diminishing popularity of the portrait miniature in the nineteenth century?",
+    "passage": "A common assumption among art historians is that the invention of photography in the mid-nineteenth century displaced the\npainted portrait in the public consciousness. The diminishing popularity of the portrait miniature, which coincided with the rise of\nphotography, seems to support this claim. However, photography\u2019s impact on the portrait miniature may be overstated. Although\nrecords from art exhibitions in the Netherlands from 1820 to 1892 show a decrease in the number of both full-sized and miniature\nportraits submitted, this trend was established before the invention of photography.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Factors other than the rise of photography may be more directly responsible for the portrait miniature\u2019s decline."
+      },
+      {
+        "label": "B",
+        "text": "Although portrait miniatures became less common than photographs, they were widely regarded as having more artistic merit."
+      },
+      {
+        "label": "C",
+        "text": "The popularity of the portrait miniature likely persisted for longer than art historians have assumed."
+      },
+      {
+        "label": "D",
+        "text": "As demand for portrait miniatures decreased, portrait artists likely shifted their creative focus to photography."
+      }
+    ],
+    "correct": "A",
+    "rationale": "Choice A is the best answer. The text says that the impact of photography on the portrait miniature might be \"overstated,\" as some records show a decrease in the number of portrait miniatures before the invention of photography. From this, we can conclude that factors other than the rise of photography may be more directly responsible for the portrait miniature\u2019s decline. Choice B is incorrect. The text never discusses the \"artistic merit\" of either art form. Choice C is incorrect. The text never suggests that the portrait miniature was popular for longer than historians thought\u2014if anything, it suggests that the portrait miniature started losing its popularity earlier than historians thought. Choice D is incorrect. The text never suggests that portrait painters shifted to become photographers."
+  },
+  {
+    "id": "d73a908a",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central and Ideas Details",
+    "difficulty": "Medium",
+    "question": "Which choice best states the main idea of the text?",
+    "passage": "Believing that living in an impractical space can heighten awareness and even improve health, conceptual artists Madeline Gins\nand Shusaku Arakawa designed an apartment building in Japan to be more fanciful than functional. A kitchen counter is chest-\nhigh on one side and knee-high on the other; a ceiling has a door to nowhere. The effect is disorienting but invigorating: after four\nyears there, filmmaker Nobu Yamaoka reported significant health benefits.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Although inhabiting a home surrounded by fanciful features such as those designed by Gins and Arakawa can be rejuvenating, it is unsustainable."
+      },
+      {
+        "label": "B",
+        "text": "Designing disorienting spaces like those in the Gins and Arakawa building is the most effective way to create a physically stimulating environment."
+      },
+      {
+        "label": "C",
+        "text": "As a filmmaker, Yamaoka has long supported the designs of conceptual artists such as Gins and Arakawa."
+      },
+      {
+        "label": "D",
+        "text": "Although impractical, the design of the apartment building by Gins and Arakawa may improve the well-being of the building\u2019s residents."
+      }
+    ],
+    "correct": "D",
+    "rationale": "Choice D is the best answer because it most accurately states the main idea of the text. According to the text, conceptual artists Gins and Arakawa have designed an apartment building that is disorienting because of several unconventional elements, such as uneven kitchen counters and \u201ca door to nowhere.\u201d The text goes on to suggest that there may be benefits to this kind of design because filmmaker Yamaoka lived in the apartment building for four years and reported health benefits. Thus, although the design is impractical, it may improve the well-being of the apartment building\u2019s residents. Choice A is incorrect. Although the text mentions that Yamaoka lived in the apartment for four years, it doesn\u2019t address how long someone can beneficially live in a home surrounded by fanciful features or whether doing so can be sustained. Choice B is incorrect. Although the text mentions the potential benefits of living in a home with disorienting design features, it doesn\u2019t suggest that this is the most effective method to create a physically stimulating environment. Choice C is incorrect because the text refers to Yamaoka to support the claim that Gins and Arakawa\u2019s apartment building design may be beneficial, but the text doesn\u2019t indicate that Yamaoka supports the designs of other conceptual artists."
+  },
+  {
+    "id": "d748c3fd",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
+    "question": "Which choice most logically completes the text?",
+    "passage": "In her 2021 article \u201cThrowaway History: Towards a Historiography of Ephemera,\u201d scholar Anne Garner discusses John Johnson\n(1882\u20131956), a devoted collector of items intended to be discarded, including bus tickets and campaign pamphlets. Johnson\nrecognized that scholarly institutions considered his expansive collection of ephemera to be worthless\u2014indeed, it wasn\u2019t until\n1968, after Johnson\u2019s death, that Oxford University\u2019s Bodleian Library acquired the collection, having grasped the items\u2019 potential\nvalue to historians and other researchers. Hence, the example of Johnson serves to ______",
+    "choices": [
+      {
+        "label": "A",
+        "text": "demonstrate the difficulties faced by contemporary historians in conducting research at the Bodleian Library without access to ephemera."
+      },
+      {
+        "label": "B",
+        "text": "represent the challenge of incorporating examples of ephemera into the collections of libraries and other scholarly institutions."
+      },
+      {
+        "label": "C",
+        "text": "lend support to arguments by historians and other researchers who continue to assert that ephemera holds no value for scholars."
+      },
+      {
+        "label": "D",
+        "text": "illustrate both the relatively low scholarly regard in which ephemera was once held and the later recognition of ephemera\u2019s possible utility."
+      }
+    ],
+    "correct": "D",
+    "rationale": "Choice D is the best answer. Johnson collected \u201cephemera,\u201d or things that are meant to be thrown away. Scholars thought his collection was worthless to them, then later realized that it was potentially valuable. This suggests that scholars went from disregarding ephemera to recognizing their usefulness. Choice A is incorrect. This inference isn\u2019t supported. The text tells us that the Bodleian Library acquired Johnson\u2019s large collection of ephemera back in 1968, so we can assume that contemporary historians conducting research there do have access to that collection. Choice B is incorrect. This inference isn\u2019t supported. The text tells us that \u201cOxford University\u2019s Bodleian Library acquired the collection,\u201d but it never suggests that it was a challenge to do so. Choice C is incorrect. This inference isn\u2019t supported. The text actually suggests the opposite: the example of Johnson\u2019s collection lends support to arguments that ephemera does hold value for scholars."
+  },
+  {
+    "id": "0147b080",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Easy",
+    "question": "Which choice most effectively uses data from the table to complete the text?",
+    "passage": "Pyramids in Egypt and the Americas\nPyramid Country Height (meters) Age (years before present)\nThe Great Pyramid Mexico 33 2,050 to 2,400\nThe Pyramid of Djoser Egypt 60 4,600 to 4,700\nThe Pyramid of Sahure Egypt 47 4,400 to 4,500\nEl Castillo Belize 40 1,100 to 1,400\nA student is writing an essay about four pyramids for a history class and wants to note how long ago each pyramid was built and\nhow tall each pyramid is. Consulting the table, the student finds that el Castillo was built 1,100 to 1,400 years ago and is ______",
+    "choices": [
+      {
+        "label": "A",
+        "text": "33 meters tall."
+      },
+      {
+        "label": "B",
+        "text": "47 meters tall."
+      },
+      {
+        "label": "C",
+        "text": "40 meters tall."
+      },
+      {
+        "label": "D",
+        "text": "60 meters tall."
+      }
+    ],
+    "correct": "C",
+    "rationale": "Choice C is the best answer because it most effectively uses data from the table to complete the text about the el Castillo pyramid. The table presents information for the location, height, and age of four pyramids, and the task is to use the data from the table to complete the text by choosing the correct height for el Castillo, which the table shows is 40 meters. Choice A is incorrect because, according to the table, el Castillo is 40 meters tall, not 33 meters, which is the height of the Great Pyramid in Mexico. Choice B is incorrect because, according to the table, el Castillo is 40 meters tall, not 47 meters, which is the height of the Pyramid of Sahure in Egypt. Choice D is incorrect because, according to the table, el Castillo is 40 meters tall, not 60 meters, which is the height of the Pyramid of Djoser in Egypt."
+  }
+]

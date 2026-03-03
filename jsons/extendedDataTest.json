@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "f1bfbed3",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "question": "Which choice most logically completes the text?",
+    "passage": "Marta Coll and colleagues' 2010 Mediterranean Sea biodiversity census reported approximately 17,000 species, nearly double the number reported in Carlo Bianchi and Carla Morri's 2000 census—a difference only partly attributable to the description of new invertebrate species in the interim. Another factor is that the morphological variability of microorganisms is poorly understood compared to that of vertebrates, invertebrates, plants, and algae, creating uncertainty about how to evaluate microorganisms as species. Researchers' decisions on such matters therefore can be highly consequential. Indeed, the two censuses reported similar counts of vertebrate, plant, and algal species, suggesting that ______",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Coll and colleagues reported a much higher number of species than Bianchi and Morri did largely due to the inclusion of invertebrate species that had not been described at the time of Bianchi and Morri's census."
+      },
+      {
+        "label": "B",
+        "text": "some differences observed in microorganisms may have been treated as variations within species by Bianchi and Morri but treated as indicative of distinct species by Coll and colleagues."
+      },
+      {
+        "label": "C",
+        "text": "Bianchi and Morri may have been less sensitive to the degree of morphological variation displayed within a typical species of microorganism than Coll and colleagues were."
+      },
+      {
+        "label": "D",
+        "text": "the absence of clarity regarding how to differentiate among species of microorganisms may have resulted in Coll and colleagues underestimating the number of microorganism species."
+      }
+    ],
+    "correct": "B",
+    "rationale": "Choice B is the best answer because it presents the conclusion that most logically completes the text's discussion of the different counts of species in the Mediterranean Sea. The text states that Coll and colleagues reported almost double the number of species that Bianchi and Morri reported in their study ten years earlier. According to the text, this difference can only be partly attributed to new invertebrate species being described in the years between the two studies, which means there must be an additional factor that made Coll and colleagues' count so much higher than Bianchi and Morri's count. The text goes on to explain that factor: researchers have a relatively poor understanding of microorganisms' morphological variability, or the differences in microorganisms' structure and form. This poor understanding makes it hard to classify microorganisms by species and means that researchers' decisions about classifying microorganisms can have a large effect on the overall species counts that researchers report. Additionally, the text says that the two censuses reported similar numbers of vertebrate, plant, and algal species, which means that the difference in overall species did not come from differences in those categories. Given all this information, it most logically follows that Coll and colleagues may have treated some of the differences among microorganisms as indicative of the microorganisms being different species, whereas Bianchi and Morri treated those differences as variations within species, resulting in Coll and colleagues reporting many more species than Bianchi and Morri did. Choice A is incorrect because the text explicitly addresses this issue by stating that the description of new invertebrate species in the years between the two studies can explain only part of the difference in the number of species reported by the studies. The focus of the text is on explaining the difference between Coll and colleagues' count and Bianchi and Morri's count that cannot be accounted for by the inclusion of invertebrate species that had not been described at the time of Bianchi and Morri's study. Choice C is incorrect because nothing in the text suggests that Bianchi and Morri may have been less sensitive to how much the form and structure of microorganisms vary within the same species than Coll and colleagues were. If Bianchi and Morri had been less sensitive to within-species variation than Coll and colleagues were, Bianchi and Morri would likely have reported more species than Coll and colleagues did, since less sensitivity to within-species variation would lead researchers to classify as different species microorganisms that more sensitive researchers would classify as variations within the same species. The text indicates, however, that Bianchi and Morri reported far fewer species than Coll and colleagues did; since the text also excludes other explanations for this difference, it suggests that in fact Bianchi and Morri were more sensitive to within-species variation than Coll and colleagues were, leading Bianchi and Morri to report fewer overall species. Choice D is incorrect because the text is focused on explaining why Coll and colleagues reported many more species than Bianchi and Morri did, and an underestimate of the number of microorganism species by Coll and colleagues would not explain that difference—it would suggest, in fact, that the difference in the number of species should have been even larger."
+  },
+  {
+    "id": "87aa7bab",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
+    "question": "Based on the text, what can be concluded about the diminishing popularity of the portrait miniature in the nineteenth century?",
+    "passage": "A common assumption among art historians is that the invention of photography in the mid-nineteenth century displaced the painted portrait in the public consciousness. The diminishing popularity of the portrait miniature, which coincided with the rise of photography, seems to support this claim. However, photography's impact on the portrait miniature may be overstated. Although records from art exhibitions in the Netherlands from 1820 to 1892 show a decrease in the number of both full-sized and miniature portraits submitted, this trend was established before the invention of photography.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Factors other than the rise of photography may be more directly responsible for the portrait miniature's decline."
+      },
+      {
+        "label": "B",
+        "text": "Although portrait miniatures became less common than photographs, they were widely regarded as having more artistic merit."
+      },
+      {
+        "label": "C",
+        "text": "The popularity of the portrait miniature likely persisted for longer than art historians have assumed."
+      },
+      {
+        "label": "D",
+        "text": "As demand for portrait miniatures decreased, portrait artists likely shifted their creative focus to photography."
+      }
+    ],
+    "correct": "A",
+    "rationale": "Choice A is the best answer. The text says that the impact of photography on the portrait miniature might be \"overstated,\" as some records show a decrease in the number of portrait miniatures before the invention of photography. From this, we can conclude that factors other than the rise of photography may be more directly responsible for the portrait miniature's decline. Choice B is incorrect. The text never discusses the \"artistic merit\" of either art form. Choice C is incorrect. The text never suggests that the portrait miniature was popular for longer than historians thought—if anything, it suggests that the portrait miniature started losing its popularity earlier than historians thought. Choice D is incorrect. The text never suggests that portrait painters shifted to become photographers."
+  },
+  {
+    "id": "d73a908a",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
+    "question": "Which choice best states the main idea of the text?",
+    "passage": "Believing that living in an impractical space can heighten awareness and even improve health, conceptual artists Madeline Gins and Shusaku Arakawa designed an apartment building in Japan to be more fanciful than functional. A kitchen counter is chest-high on one side and knee-high on the other; a ceiling has a door to nowhere. The effect is disorienting but invigorating: after four years there, filmmaker Nobu Yamaoka reported significant health benefits.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Although inhabiting a home surrounded by fanciful features such as those designed by Gins and Arakawa can be rejuvenating, it is unsustainable."
+      },
+      {
+        "label": "B",
+        "text": "Designing disorienting spaces like those in the Gins and Arakawa building is the most effective way to create a physically stimulating environment."
+      },
+      {
+        "label": "C",
+        "text": "As a filmmaker, Yamaoka has long supported the designs of conceptual artists such as Gins and Arakawa."
+      },
+      {
+        "label": "D",
+        "text": "Although impractical, the design of the apartment building by Gins and Arakawa may improve the well-being of the building's residents."
+      }
+    ],
+    "correct": "D",
+    "rationale": "Choice D is the best answer because it most accurately states the main idea of the text. According to the text, conceptual artists Gins and Arakawa have designed an apartment building that is disorienting because of several unconventional elements, such as uneven kitchen counters and \"a door to nowhere.\" The text goes on to suggest that there may be benefits to this kind of design because filmmaker Yamaoka lived in the apartment building for four years and reported health benefits. Thus, although the design is impractical, it may improve the well-being of the apartment building's residents. Choice A is incorrect. Although the text mentions that Yamaoka lived in the apartment for four years, it doesn't address how long someone can beneficially live in a home surrounded by fanciful features or whether doing so can be sustained. Choice B is incorrect. Although the text mentions the potential benefits of living in a home with disorienting design features, it doesn't suggest that this is the most effective method to create a physically stimulating environment. Choice C is incorrect because the text refers to Yamaoka to support the claim that Gins and Arakawa's apartment building design may be beneficial, but the text doesn't indicate that Yamaoka supports the designs of other conceptual artists."
+  },
+  {
+    "id": "d748c3fd",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
+    "question": "Which choice most logically completes the text?",
+    "passage": "In her 2021 article \"Throwaway History: Towards a Historiography of Ephemera,\" scholar Anne Garner discusses John Johnson (1882–1956), a devoted collector of items intended to be discarded, including bus tickets and campaign pamphlets. Johnson recognized that scholarly institutions considered his expansive collection of ephemera to be worthless—indeed, it wasn't until 1968, after Johnson's death, that Oxford University's Bodleian Library acquired the collection, having grasped the items' potential value to historians and other researchers. Hence, the example of Johnson serves to ______",
+    "choices": [
+      {
+        "label": "A",
+        "text": "demonstrate the difficulties faced by contemporary historians in conducting research at the Bodleian Library without access to ephemera."
+      },
+      {
+        "label": "B",
+        "text": "represent the challenge of incorporating examples of ephemera into the collections of libraries and other scholarly institutions."
+      },
+      {
+        "label": "C",
+        "text": "lend support to arguments by historians and other researchers who continue to assert that ephemera holds no value for scholars."
+      },
+      {
+        "label": "D",
+        "text": "illustrate both the relatively low scholarly regard in which ephemera was once held and the later recognition of ephemera's possible utility."
+      }
+    ],
+    "correct": "D",
+    "rationale": "Choice D is the best answer. Johnson collected \"ephemera,\" or things that are meant to be thrown away. Scholars thought his collection was worthless to them, then later realized that it was potentially valuable. This suggests that scholars went from disregarding ephemera to recognizing their usefulness. Choice A is incorrect. This inference isn't supported. The text tells us that the Bodleian Library acquired Johnson's large collection of ephemera back in 1968, so we can assume that contemporary historians conducting research there do have access to that collection. Choice B is incorrect. This inference isn't supported. The text tells us that \"Oxford University's Bodleian Library acquired the collection,\" but it never suggests that it was a challenge to do so. Choice C is incorrect. This inference isn't supported. The text actually suggests the opposite: the example of Johnson's collection lends support to arguments that ephemera does hold value for scholars."
+  },
+  {
+    "id": "6b8a7c74",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "question": "Which choice most logically completes the text?",
+    "passage": "One recognized social norm of gift giving is that the time spent obtaining a gift will be viewed as a reflection of the gift's thoughtfulness. Marketing experts Farnoush Reshadi, Julian Givi, and Gopal Das addressed this view in their studies of norms specifically surrounding the giving of gift cards, noting that while recipients tend to view digital gift cards (which can be purchased online from anywhere and often can be redeemed online as well) as superior to physical gift cards (which sometimes must be purchased in person and may only be redeemable in person) in terms of usage, 94.8 percent of participants surveyed indicated that it is more socially acceptable to give a physical gift card to a recipient. This finding suggests that ______",
+    "choices": [
+      {
+        "label": "A",
+        "text": "gift givers likely overestimate the amount of effort required to use digital gift cards and thus mistakenly assume gift recipients will view them as less desirable than physical gift cards."
+      },
+      {
+        "label": "B",
+        "text": "physical gift cards are likely preferred by gift recipients because the tangible nature of those cards offers a greater psychological sense of ownership than digital gift cards do."
+      },
+      {
+        "label": "C",
+        "text": "physical gift cards are likely less desirable to gift recipients than digital gift cards are because of the perception that physical gift cards require unnecessary effort to obtain."
+      },
+      {
+        "label": "D",
+        "text": "gift givers likely perceive digital gift cards as requiring relatively low effort to obtain and thus wrongly assume gift recipients will appreciate them less than they do physical gift cards."
+      }
+    ],
+    "correct": "D",
+    "rationale": "Choice D is the best answer because it most logically completes the text's discussion of perceptions of digital versus physical gift cards. The text begins by explaining that the perception of \"the time spent obtaining a gift…as a reflection of the gift's thoughtfulness\" is a social norm of gift giving. The text then explains that although those who receive digital gift cards view them as easier to use than physical gift cards, a marketing study nonetheless showed that 94.8% of participants found physical gift cards more \"socially acceptable\" to give. The text specifically contrasts the ease with which digital gift cards \"can be purchased online from anywhere\" with the fact that physical gift cards \"sometimes must be purchased in person\"—suggesting the greater difficulty of obtaining physical cards. Given the text's initial premise that gift-giving norms equate the thoughtfulness of a gift with the effort involved in acquiring that gift, it is reasonable to infer that people perceive digital gift cards as requiring less effort to obtain and thus assume recipients will appreciate them less, even though recipients actually prefer gift cards in the more usable digital format. Choice A is incorrect. Although the text does discuss recipients' preference of digital versus physical gift cards and the relative ease with which the two formats can be used, it doesn't consider the misconceptions that gift givers may have of these factors. Moreover, the text establishes that recipients regard digital gift cards as easier to use and therefore preferable to physical gift cards. Choice B is incorrect because the text doesn't consider whether recipients of gift cards feel a sense of ownership toward them, nor does the text touch on the greater tangibility of physical versus digital gift cards. Instead, the text contrasts the two formats of gift cards in terms of their respective usability and the difficulty involved in acquiring them and discusses how those factors influence people's perceptions of the two formats. Choice C is incorrect because it contradicts the text, which explains that recipients regard digital gift cards as superior to physical ones because they are easier to use than physical cards, not because physical gift cards require greater effort to obtain than digital gift cards do. Moreover, the text doesn't characterize the effort required to obtain physical gift cards as \"unnecessary.\""
+  },
+  {
+    "id": "a15b3219",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Hard",
+    "question": "Which choice best describes data from the graph that weaken the team's hypothesis?",
+    "chart": {
+      "type": "bar",
+      "title": "Municipalities' Responses to Inquiries about Potential Incentives for Firm",
+      "x_label": "",
+      "y_label": "Number of municipalities",
+      "categories": [
+        "no response",
+        "responded to inquiry",
+        "offered incentive"
+      ],
+      "series": [
+        {
+          "label": "announcement before election",
+          "color": "#D3D3D3",
+          "values": [
+            1250,
+            250,
+            100
+          ]
+        },
+        {
+          "label": "announcement after election",
+          "color": "#808080",
+          "values": [
+            1250,
+            250,
+            100
+          ]
+        }
+      ],
+      "grid": true,
+      "y_axis": {
+        "min": 0,
+        "max": 1300,
+        "tick_interval": 100
+      }
+    },
+    "passage": "In the United States, firms often seek incentives from municipal governments to expand to those municipalities. A team of political scientists hypothesized that municipalities are much more likely to respond to firms and offer incentives if expansions can be announced in time to benefit local elected officials than if they can't. The team contacted officials in thousands of municipalities, inquiring about incentives for a firm looking to expand and indicating that the firm would announce its expansion on a date either just before or just after the next election.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "A large majority of the municipalities that received an inquiry mentioning plans for an announcement before the next election didn't respond to the inquiry."
+      },
+      {
+        "label": "B",
+        "text": "The proportion of municipalities that responded to the inquiry or offered incentives didn't substantially differ across the announcement timing conditions."
+      },
+      {
+        "label": "C",
+        "text": "Only around half the municipalities that responded to inquiries mentioning plans for an announcement before the next election offered incentives."
+      },
+      {
+        "label": "D",
+        "text": "Of the municipalities that received an inquiry mentioning plans for an announcement date after the next election, more than 1,200 didn't respond and only around 100 offered incentives."
+      }
+    ],
+    "correct": "B",
+    "rationale": "Choice B is the best answer. The lighter bars show what happened when the announcement was to come before the election, and the darker bars show what happened when the announcement was to come after the election. For all three of the outcomes, the light and dark bars are virtually the same, demonstrating that the announcement timing didn't actually make a difference. Choice A is incorrect. This accurately describes some data from the graph, but it doesn't weaken the hypothesis. It doesn't include the \"announcement after election\" data for comparison. Choice C is incorrect. This accurately describes some data from the graph, but it doesn't weaken the hypothesis. It doesn't include the \"announcement after election\" data for comparison. Choice D is incorrect. This accurately describes some data from the graph, but it doesn't weaken the hypothesis. It doesn't include the \"announcement before election\" data for comparison."
+  },
+  {
+    "id": "ed314256",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Hard",
+    "question": "What does the text most strongly suggest about Sleep No More's use of its performance space?",
+    "passage": "The most recent iteration of the immersive theater experience Sleep No More, which premiered in New York City in 2011, transforms its performance space—a five-story warehouse—into a 1930s-era hotel. Audience members, who wander through the labyrinthine venue at their own pace and follow the actors as they play out simultaneous, interweaving narrative loops, confront the impossibility of experiencing the production in its entirety. The play's refusal of narrative coherence thus hinges on the sense of spatial fragmentation that the venue's immense and intricate layout generates.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The choice of a New York City venue likely enabled the play's creators to experiment with the use of theatrical space in a way that venues from earlier productions could not."
+      },
+      {
+        "label": "B",
+        "text": "Audience members likely find the experience of the play disappointing because they generally cannot make their way through the entire venue."
+      },
+      {
+        "label": "C",
+        "text": "The production's dependence on a particular performance environment would likely make it difficult to reproduce exactly in a different theatrical space."
+      },
+      {
+        "label": "D",
+        "text": "Audience members who navigate the space according to a recommended itinerary will likely have a better grasp of the play's narrative than audience members who depart from that itinerary."
+      }
+    ],
+    "correct": "C",
+    "rationale": "Choice C is the best answer. The text says that the production's use of its large, winding space has a very specific effect on the audience. Given that the space itself is so important to creating this effect, it would be difficult to reproduce the production in a different space. Choice A is incorrect. The fact that the venue is in New York City isn't connected to the experimental nature of the performance. It's the size of the venue, not its location in New York, that affects the theatrical experience. Choice B is incorrect. The text never suggests that audience members are disappointed because they can't see the entire production. In fact, it suggests that that's an important part of the experience. Choice D is incorrect. The text doesn't mention a recommended itinerary for audience members."
+  },
+  {
+    "id": "8c1be131",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
+    "question": "According to the text, how do historians view pachuca style?",
+    "passage": "During the World War II era, some Mexican American women adopted a striking new look called pachuca style. They wore altered men's jackets or zoot suits (wide-legged, long-coated suits) and dramatic makeup, and they combed their hair into high, rounded shapes. Some people criticized pachuca style, saying it was dangerous and women should dress traditionally. But historians see things differently. They see pachuca style as a form of rebellion against the era's rigid social expectations for women. They say that it showed a desire for self-expression and freedom on the part of women who adopted the style.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "They think that pachuca style was such a popular trend that it continues to influence fashion in the United States to the present day."
+      },
+      {
+        "label": "B",
+        "text": "They think that pachuca style was a way for some Mexican American women to express themselves and resist strict social expectations."
+      },
+      {
+        "label": "C",
+        "text": "They think that pachuca style was celebrated because it enabled some Mexican American women to show their support for the United States during World War II."
+      },
+      {
+        "label": "D",
+        "text": "They think that pachuca style was similar to other fashion trends that different groups of women adopted in the same period."
+      }
+    ],
+    "correct": "B",
+    "rationale": "Choice B is the best answer because it presents a statement about how historians view pachuca style that is supported by the text. The text first describes the distinctive pachuca style of dress adopted by some Mexican American women during World War II, saying that some criticized it and asserted that women should dress traditionally. The text then goes on to contrast this position with that of historians, who \"see things differently\": according to these historians, the pachuca style showed a wish for freedom and self-expression, and it acted as a kind of rebellion against what society expected of women at the time. Therefore, according to the text, historians think that the pachuca style was a way for Mexican women to express themselves and resist strict social expectations. Choice A is incorrect because the text explicitly describes the pachuca style as a distinctive look adopted during the World War II era. It does not indicate that the pachuca style influences fashion in the United States in the present day. Choice C is incorrect because the text does not indicate that Mexican American women wore the pachuca style to show support for the United States during World War II; rather, the style was a means of self-expression and rebellion against social expectations. Choice D is incorrect because the text does not compare the pachuca style to other fashion trends: the pachuca style is the only style mentioned."
+  },
+  {
+    "id": "92c2564d",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
+    "question": "According to the text, why are ecologists worried about Pando?",
+    "passage": "Utah is home to Pando, a colony of about 47,000 quaking aspen trees that all share a single root system. Pando is one of the largest single organisms by mass on Earth, but ecologists are worried that its growth is declining in part because of grazing by animals. The ecologists say that strong fences could prevent deer from eating young trees and help Pando start thriving again.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "It isn't growing at the same rate it used to."
+      },
+      {
+        "label": "B",
+        "text": "It isn't producing young trees anymore."
+      },
+      {
+        "label": "C",
+        "text": "It can't grow into new areas because it is blocked by fences."
+      },
+      {
+        "label": "D",
+        "text": "Its root system can't support many more new trees."
+      }
+    ],
+    "correct": "A",
+    "rationale": "Choice A is the best answer because it presents an explanation that is directly stated in the text for why ecologists are worried about Pando. The text states that Pando is a colony of about 47,000 quaking aspen trees that represents one of the largest organisms on Earth. According to the text, ecologists are worried that Pando's growth is declining, partly because animals are feeding on the trees. In other words, the ecologists are worried that Pando isn't growing at the same rate it used to. Choice B is incorrect. Rather than indicating that Pando isn't producing young trees anymore, the text reveals that Pando is indeed producing young trees, stating that those trees can be protected from grazing deer by strong fences. Choice C is incorrect because the text states that fences can be used to prevent deer from eating Pando's young trees, not that Pando itself can't grow in new areas because it's blocked by fences. Choice D is incorrect because the text offers no evidence that Pando's root system is incapable of supporting new trees or is otherwise a cause of worry for ecologists."
+  },
+  {
+    "id": "22e4d633",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "question": "Which finding, if true, would most directly support the researchers' hypothesis?",
+    "passage": "Although many transposons, DNA sequences that move within an organism's genome through shuffling or duplication, have become corrupted and inactive over time, those from the long interspersed nuclear elements (LINE) family appear to remain active in the genomes of some species. In humans, they are functionally important within the hippocampus, a brain structure that supports complex cognitive processes. When the results of molecular analysis of two species of octopus—an animal known for its intelligence—were announced in 2022, the confirmation of a LINE transposon in Octopus vulgaris and Octopus bimaculoides genomes prompted researchers to hypothesize that that transposon family is tied to a species' capacity for advanced cognition.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The LINE transposon in O. vulgaris and O. bimaculoides genomes is active in an octopus brain structure that functions similarly to the human hippocampus."
+      },
+      {
+        "label": "B",
+        "text": "The human genome contains multiple transposons from the LINE family that are all primarily active in the hippocampus."
+      },
+      {
+        "label": "C",
+        "text": "A consistent number of copies of LINE transposons is present across the genomes of most octopus species, with few known corruptions."
+      },
+      {
+        "label": "D",
+        "text": "O. vulgaris and O. bimaculoides have smaller brains than humans do relative to body size, but their genomes contain sequences from a wider variety of transposon families."
+      }
+    ],
+    "correct": "A",
+    "rationale": "Choice A is the best answer. The text says that LINE transposons are important in the human hippocampus, which supports complex cognition. If the LINE transposon found in octopuses is active in a similar part of their brain, that would suggest that LINE transposons support complex cognition in octopuses too, which in turn supports the hypothesis that LINE transposons are linked to advanced cognition in general. Choice B is incorrect. This choice doesn't support the hypothesis. It doesn't include anything about how LINE transposons function in species other than humans. Choice C is incorrect. This choice doesn't support the hypothesis. It doesn't include anything about how the LINE transposon in octopuses might support advanced cognition. Choice D is incorrect. This choice doesn't support the hypothesis. It doesn't include anything about how the LINE transposon in octopuses might support advanced cognition."
+  },
+  {
+    "id": "458b4a11",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Hard",
+    "question": "It can most reasonably be inferred from the text that the finding about the microorganism community composition was important for which reason?",
+    "passage": "To understand how temperature change affects microorganism-mediated cycling of soil nutrients in alpine ecosystems, Eva Kaštovská et al. collected plant-soil cores in the Tatra Mountains at elevations around 2,100 meters and transplanted them to elevations of 1,700–1,800 meters, where the mean air temperature was warmer by 2°C. Microorganism-mediated nutrient cycling was accelerated in the transplanted cores; crucially, microorganism community composition was unchanged, allowing Kaštovská et al. to attribute the acceleration to temperature-induced increases in microorganism activity.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "It provided preliminary evidence that microorganism-mediated nutrient cycling was accelerated in the transplanted cores."
+      },
+      {
+        "label": "B",
+        "text": "It suggested that temperature-induced changes in microorganism activity may be occurring at increasingly high elevations."
+      },
+      {
+        "label": "C",
+        "text": "It ruled out a potential alternative explanation for the acceleration in microorganism-mediated nutrient cycling."
+      },
+      {
+        "label": "D",
+        "text": "It clarified that microorganism activity levels in the plant-soil cores varied depending on which microorganisms comprised the community."
+      }
+    ],
+    "correct": "C",
+    "rationale": "Choice C is the best answer because it accurately describes why the finding about the microorganism community composition was important. The text describes an experiment by Eva Kaštovská and her team in which they collected plant-soil cores at one elevation and transplanted them to sites at a lower elevation, where the mean air temperature was warmer. Kaštovská and her team observed that microorganism-mediated nutrient cycling was accelerated in the transplanted cores and that \"crucially, microorganism community composition was unchanged,\" which allowed the team to attribute the acceleration to changes in microorganism activity brought about by the difference in temperature. This strongly implies that the team wouldn't have been able to make that attribution otherwise, meaning that a change in microorganism composition represented another possible explanation for the acceleration that had to be ruled out. Choice A is incorrect. Although the text says microorganism-mediated cycling of soil nutrients increased in the transplanted cores, this is unrelated to what's important about the finding that the microorganism composition didn't change—that it allowed the team to attribute the change in activity solely to the change in temperature. Choice B is incorrect. Although the text compares activity in one core at two different elevations, the text doesn't address changes in activity at various elevations over time. Choice D is incorrect. Although different microorganisms likely exhibit different levels of activity, the text indicates that there was no change in microorganism composition, and there is nothing in the text about different microorganisms having different activity levels."
+  },
+  {
+    "id": "0d7f4966",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Hard",
+    "question": "Which statement, if true, would most directly weaken the claim by Caron and colleagues about the fossils found in China and the United States?",
+    "passage": "Jean-Bernard Caron and colleagues recently discovered a cache of jellyfish fossils in the Burgess Shale, a site in the Canadian Rockies that is rich in fossils from the Cambrian period (over 500 million years ago). Caron and colleagues claim that these are the oldest jellyfish fossils ever discovered. In the past twenty years, two sites in China and the United States have yielded fossils of a similar age that some experts believe are most likely jellyfish due to their shapes and the appearance of projecting tentacles. But Caron and colleagues argue that the apparent tentacles are in fact the comb rows of ctenophores, gelatinous animals that are only distantly related to jellyfish.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Sites in the Canadian Rockies from later periods than the Cambrian period have yielded fossils that have been conclusively identified as ctenophore fossils."
+      },
+      {
+        "label": "B",
+        "text": "The fossils found in China and the United States are so poorly preserved that though they cannot be conclusively identified as jellyfish, they cannot be conclusively identified as ctenophores either."
+      },
+      {
+        "label": "C",
+        "text": "While ctenophore fossils have been discovered in China and the United States, they have never been discovered in the Burgess Shale."
+      },
+      {
+        "label": "D",
+        "text": "The fossils discovered by Caron and colleagues in the Burgess Shale were better preserved than the fossils discovered by other researchers in China and the United States."
+      }
+    ],
+    "correct": "B",
+    "rationale": "Choice B is the best answer because it presents a statement that, if true, would most directly weaken Caron and colleagues' claim that the apparent tentacles in the Chinese and American fossils are actually ctenophore comb rows. If the fossils are so poorly preserved that they cannot be conclusively identified as either organism, neither the claim that they are jellyfish nor, as Caron claims, that they are ctenophores would be supported. Choice A is incorrect. Caron's claim is that fossils from the US and China are ctenophores, not jellyfish. These fossils are said to be \"of a similar age\" to the Cambrian fossils found in the Canadian Rockies. And nothing in the text or this choice suggests that the presence or absence of ctenophores after the Cambrian would have any bearing on whether the Cambrian fossils from the US and China are ctenophores. Choice C is incorrect. Caron's claim is that fossils from the US and China are ctenophores, not jellyfish. Nothing in the text suggests that the presence or absence of ctenophores in the Burgess Shale (in Canada) would affect whether the fossils found in the US and China are ctenophores. Choice D is incorrect. Caron's claim is that fossils from the US and China are ctenophores, not jellyfish. Although fossil quality is a plausible issue for the research described in the text, nothing in the text or this choice suggests that the fossils from US and China would have been too poorly preserved for proper identification."
+  },
+  {
+    "id": "3543e6e2",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "question": "According to the text, what is true about Elinor?",
+    "passage": "The following text is from Jane Austen's 1811 novel Sense and Sensibility. Elinor lives with her younger sisters and her mother, Mrs. Dashwood. Elinor, this eldest daughter, whose advice was so effectual, possessed a strength of understanding, and coolness of judgment, which qualified her, though only nineteen, to be the counsellor of her mother, and enabled her frequently to counteract, to the advantage of them all, that eagerness of mind in Mrs. Dashwood which must generally have led to imprudence. She had an excellent heart;—her disposition was affectionate, and her feelings were strong; but she knew how to govern them: it was a knowledge which her mother had yet to learn; and which one of her sisters had resolved never to be taught.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Elinor often argues with her mother but fails to change her mind."
+      },
+      {
+        "label": "B",
+        "text": "Elinor can be overly sensitive with regard to family matters."
+      },
+      {
+        "label": "C",
+        "text": "Elinor thinks her mother is a bad role model."
+      },
+      {
+        "label": "D",
+        "text": "Elinor is remarkably mature for her age."
+      }
+    ],
+    "correct": "D",
+    "rationale": "Choice D is the best answer because it provides a detail about Elinor that is established in the text. The text indicates that although Elinor is \"only nineteen,\" she gives good advice and exhibits such a high level of understanding and judgment that she serves as \"the counsellor of her mother.\" Thus, Elinor is mature beyond her years. Choice A is incorrect because it isn't supported by the text: although the text says that Elinor advises her mother and often counteracts her mother's impulses, there's no mention of Elinor arguing with her mother or failing to change her mother's mind. Choice B is incorrect because it isn't supported by the text: although the text mentions that Elinor has strong feelings, it doesn't indicate that she's excessively sensitive when it comes to family issues. Choice C is incorrect because it isn't supported by the text: there's no mention of what Elinor thinks about her mother and no suggestion that she thinks her mother is a bad role model. Because she's described as having \"an excellent heart,\" Elinor likely doesn't think ill of her mother."
+  },
+  {
+    "id": "75e07a4d",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Easy",
+    "question": "Which choice most effectively uses data from the table to complete the statement?",
+    "table": {
+      "title": "Sample of Food Items from Gemini Mission Menus",
+      "rows": [
+        {
+          "type": "header",
+          "cells": [
+            "Food item",
+            "Day",
+            "Meal"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Sugar cookie cubes",
+            "1",
+            "B"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Chicken and vegetables",
+            "2",
+            "B"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Shrimp cocktail",
+            "4",
+            "C"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Hot cocoa",
+            "3",
+            "A"
+          ]
+        }
+      ]
+    },
+    "passage": "To make sure they got the nutrition they needed while in space, the astronauts of NASA's Gemini missions were given menus for three meals a day (meals A, B, and C) on a four-day rotating schedule. Looking at the sample of food items from these menus, a student notes that on day 1, the menu included ______",
+    "choices": [
+      {
+        "label": "A",
+        "text": "shrimp cocktail for meal B."
+      },
+      {
+        "label": "B",
+        "text": "hot cocoa for meal C."
+      },
+      {
+        "label": "C",
+        "text": "sugar cookie cubes for meal B."
+      },
+      {
+        "label": "D",
+        "text": "chicken and vegetables for meal A."
+      }
+    ],
+    "correct": "C",
+    "rationale": "Choice C is the best answer because it most effectively uses data from the table to complete the statement. The table shows that on day 1, the menu for NASA's Gemini missions included sugar cookie cubes for meal B. Choice A is incorrect because according to the table, shrimp cocktail was served on day 4, not day 1; moreover, the item was served for meal C, not meal B, as this choice claims. Choice B is incorrect because according to the table, hot cocoa was served on day 3, not on day 1; moreover, the item was served for meal A, not for meal C, as this choice claims. Choice D is incorrect because according to the table, chicken and vegetables were served on day 2, not on day 1; moreover, the item was served for meal B, not for meal A, as this choice claims."
+  },
+  {
+    "id": "1ba5ad7a",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Hard",
+    "question": "Which choice best states the main idea of the text?",
+    "passage": "Many literary theorists distinguish between fabula, a narrative's content, and syuzhet, a narrative's arrangement and presentation of events. In the film The Godfather Part II, the fabula is the story of the Corleone family, and the syuzhet is the presentation of the story as it alternates between two timelines in 1901 and 1958. But literary theorist Mikhail Bakhtin maintained that fabula and syuzhet are insufficient to completely describe a narrative—he held that systematic categorizations of artistic phenomena discount the subtle way in which meaning is created by interactions between the artist, the work, and the audience.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Literary theorist Mikhail Bakhtin argued that there are important characteristics of narratives that are not fully encompassed by two concepts that other theorists have used to analyze narratives."
+      },
+      {
+        "label": "B",
+        "text": "Literary theorist Mikhail Bakhtin claimed that meaning is not inherent in a narrative but is created when an audience encounters a narrative so that narratives are interpreted differently by different people."
+      },
+      {
+        "label": "C",
+        "text": "The storytelling methods used in The Godfather Part II may seem unusually complicated, but they can be easily understood when two concepts from literary theory are utilized."
+      },
+      {
+        "label": "D",
+        "text": "Narratives that are told out of chronological order are more difficult for audiences to understand than are narratives presented chronologically."
+      }
+    ],
+    "correct": "A",
+    "rationale": "Choice A is the best answer because it most accurately states the main idea of the text. The text begins by explaining that many literary theorists rely on the concepts of fabula (a narrative's content) and syuzhet (a narrative's arrangement and presentation of events) and illustrates these concepts by explaining how they can be applied to the film The Godfather Part II. The text then discusses how Mikhail Bakhtin, a literary theorist, argued that fabula and syuzhet can't fully describe a narrative, since systematic categorizations such as these fail to account for all the ways in which interactions between the artist, the work, and the audience produce meaning. Thus, the main idea is that Bakhtin argued that there are important characteristics of narratives that are not fully encompassed by two concepts that other theorists have used to analyze narratives. Choice B is incorrect because according to the text, Mikhail Bakhtin believed that meaning was created through the interactions of the artist, narrative, and audience, not simply through the interaction between the audience and narrative; moreover, the text doesn't address whether Bakhtin focused on the ways in which different people interpret narratives differently. Choice C is incorrect. Although the text implies that the storytelling methods used in The Godfather Part II are complicated, it discusses the film only to illustrate how the concepts of fabula and syuzhet may be applied to a narrative. The film's storytelling methods aren't the primary focus of the text. Choice D is incorrect. The text discusses The Godfather Part II, whose narrative doesn't adhere to a single chronological order, only to illustrate the concepts of fabula (a narrative's content) and syuzhet (a narrative's arrangement and presentation of events). The primary focus of this text isn't the structure of this film or of other narratives that are told out of chronological order; moreover, the text doesn't consider whether such structures make it harder for audiences to understand narratives."
+  },
+  {
+    "id": "602b47c7",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
+    "question": "Which choice best states the main idea of the text?",
+    "passage": "Biologists have predicted that birds' feather structures vary with habitat temperature, but this hadn't been tested in mountain environments. Ornithologist Sahas Barve studied feathers from 249 songbird species inhabiting different elevations—and thus experiencing different temperatures—in the Himalaya Mountains. He found that feathers of high-elevation species not only have a greater proportion of warming downy sections to flat and smooth sections than do feathers of low-elevation species, but high-elevation species' feathers also tend to be longer, providing a thicker layer of insulation.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Barve's investigation shows that some species of Himalayan songbirds have evolved feathers that better regulate body temperature than do the feathers of other species, contradicting previous predictions."
+      },
+      {
+        "label": "B",
+        "text": "Barve found an association between habitat temperature and feather structure among Himalayan songbirds, lending new support to a general prediction."
+      },
+      {
+        "label": "C",
+        "text": "Barve discovered that songbirds have adapted to their environment by growing feathers without flat and smooth sections, complicating an earlier hypothesis."
+      },
+      {
+        "label": "D",
+        "text": "The results of Barve's study suggest that the ability of birds to withstand cold temperatures is determined more strongly by feather length than feather structure, challenging an established belief."
+      }
+    ],
+    "correct": "B",
+    "rationale": "Choice B is the best answer. The text describes how Barve found an association between habitat temperature and feather structure among Himalayan songbirds, which supports the general prediction that birds' feather structures vary with habitat temperature. Choice A is incorrect. Barve's study isn't said to contradict previous predictions. In fact, the study supports the prediction described in the first sentence, which is that birds' feather structures vary with habitat temperature. Choice C is incorrect. Barve's study isn't said to \"complicate an earlier hypothesis.\" In fact, the study supports the earlier prediction described in the first sentence, which is that birds' feather structures vary with habitat temperature. Choice D is incorrect. The text doesn't compare the importance of feather length and feather structure, and it doesn't say that Barve's study challenges any established beliefs. In fact, the study supports the prediction described in the first sentence, which is that birds' feather structures vary with habitat temperature."
+  },
+  {
+    "id": "068f939b",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Hard",
+    "question": "Which statement, if true, would most directly support the claim by Halliwell presented in the text?",
+    "passage": "The ancient Greek concept of \"mimesis,\" a term used in the works of Plato, Aristotle, and other Greek philosophers in discussions of representational art—visual, performance, or literary art that aims to depict the real world—is a foundational concept of the Western philosophy of aesthetics. Mimesis is typically translated as \"imitation\" in modern editions of ancient Greek texts, but scholar Stephen Halliwell warns that this is overly reductive: \"imitation\" implies that art merely copies—and is thus by definition entirely derivative of—a reality that exists outside and prior to the work of art, and translating \"mimesis\" thusly obscures the multifaceted ways in which the ancient Greeks understood the relationship between art and reality.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "One of the earliest appearances of mimesis's root word, mimos, can be found in an ancient Greek tragedy in reference to dramatic impersonation, and the mim- root came to be generally associated with the musical and poetic arts by the fifth century BCE."
+      },
+      {
+        "label": "B",
+        "text": "Both Plato's and Aristotle's theorizations of mimesis examine the psychological effects that works of art induce in the viewer or listener."
+      },
+      {
+        "label": "C",
+        "text": "Although several of Plato's earliest philosophical works discuss aesthetic ideas, the term \"mimesis\" doesn't appear in Plato's discussions of art until Cratylus, a relatively late work."
+      },
+      {
+        "label": "D",
+        "text": "Although Plato's writings typically characterize representational art as an inferior reflection of the physical world, Aristotle suggests that mimesis can refer to art's capacity to envision hypothetical conditions that could, but don't yet, exist."
+      }
+    ],
+    "correct": "D",
+    "rationale": "Choice D is the best answer because it presents a statement that would support Halliwell's claim that \"imitation\" is an overly simplified translation of the word \"mimesis\" in the context of ancient Greek philosophical discussions of representational art and that, because it suggests a view of art as merely copying things that exist in reality, the translation obscures the fact that Plato, Aristotle, and other ancient Greeks understood the relationship between art and reality in varied ways. If Plato's works tend to treat representational art as an inferior or inadequate reflection of the physical world (consistent with the idea of mere imitation), while Aristotle's works suggest that the term \"mimesis\" can refer to art's ability to show conditions that don't currently exist but could exist (going beyond imitation into novel creation), that evidence would support the claim that the term \"mimesis\" means more than just \"imitation\" and that ancient Greek philosophers held different views of the relationship between art and reality. Choice A is incorrect because information about the root word mimos first being used in drama and the root mim- coming to be associated with music and poetry wouldn't indicate anything about the meaning of the specific term \"mimesis\" as it was used by ancient Greek philosophers in discussions of representational art; thus, the information would have no bearing on Halliwell's claim that a common translation of the specific term is an oversimplification. Choice B is incorrect because the issue of art's psychological effects on audiences gets at how people respond to works of art instead of how art itself is related to reality, so the idea that Plato and Aristotle both addressed such effects in their considerations of mimesis wouldn't have any bearing on Halliwell's claim that a common translation of that term oversimplifies the relationship between art and reality. Further, this idea would touch on one general similarity in approaches to mimesis instead of illustrating the multifaceted, or varied, ways Halliwell claims ancient Greek philosophers understood art's relation to reality. Choice C is incorrect because the idea that Plato discussed aesthetics in his early works but didn't use the term \"mimesis\" until later doesn't give any indication of how Plato or any other ancient Greek philosophers understood the relation between art and reality, so it would have no bearing on Halliwell's claim that a common translation of the term \"mimesis\" is oversimplified and fails to reflect the varied ways the philosophers understood that relationship."
+  },
+  {
+    "id": "702eb7e3",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Hard",
+    "question": "Which choice most effectively uses data from the graph to illustrate the claim?",
+    "chart": {
+      "type": "line",
+      "title": "Economic Policy Uncertainty in the United Kingdom, 2005–2010",
+      "x_axis": {
+        "label": "Year",
+        "values": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ]
+      },
+      "y_axis": {
+        "label": "Uncertainty (larger values = more uncertainty)",
+        "min": 0,
+        "max": 200,
+        "tick_interval": 50
+      },
+      "series": [
+        {
+          "label": "tax and public spending policy",
+          "style": "solid",
+          "marker": "circle",
+          "color": "#000000",
+          "data": [
+            100,
+            80,
+            65,
+            70,
+            75,
+            150
+          ]
+        },
+        {
+          "label": "trade policy",
+          "style": "solid",
+          "marker": "square",
+          "color": "#808080",
+          "data": [
+            160,
+            130,
+            110,
+            100,
+            90,
+            70
+          ]
+        },
+        {
+          "label": "general economic policy",
+          "style": "solid",
+          "marker": "triangle",
+          "color": "#A0A0A0",
+          "data": [
+            90,
+            100,
+            90,
+            85,
+            80,
+            120
+          ]
+        }
+      ],
+      "grid": true
+    },
+    "passage": "High levels of public uncertainty about which economic policies a country will adopt can make planning difficult for businesses, but measures of such uncertainty have not tended to be very detailed. Recently, however, economist Sandile Hlatshwayo analyzed trends in news reports to derive measures not only for general economic policy uncertainty but also for uncertainty related to specific areas of economic policy, like tax or trade policy. One revelation of her work is that a general measure may not fully reflect uncertainty about specific areas of policy, as in the case of the United Kingdom, where general economic policy uncertainty ______",
+    "choices": [
+      {
+        "label": "A",
+        "text": "aligned closely with uncertainty about tax and public spending policy in 2005 but differed from uncertainty about tax and public spending policy by a large amount in 2009."
+      },
+      {
+        "label": "B",
+        "text": "was substantially lower than uncertainty about tax and public spending policy each year from 2005 to 2010."
+      },
+      {
+        "label": "C",
+        "text": "reached its highest level between 2005 and 2010 in the same year that uncertainty about trade policy and tax and public spending policy reached their lowest levels."
+      },
+      {
+        "label": "D",
+        "text": "was substantially lower than uncertainty about trade policy in 2005 and substantially higher than uncertainty about trade policy in 2010."
+      }
+    ],
+    "correct": "D",
+    "rationale": "Choice D is the best answer because it uses data from the graph to effectively illustrate the text's claim about general economic policy uncertainty in the United Kingdom. The graph presents values for economic policy uncertainty in tax and public spending policy, trade policy, and general economic policy in the UK from 2005 to 2010. The graph shows that in 2005, the value for general economic policy uncertainty (approximately 90) was substantially lower than the value for uncertainty about trade policy specifically (approximately 160). It also shows that in 2010, the value for general economic policy uncertainty (approximately 120) was substantially higher than the value for uncertainty about trade policy (approximately 70). The substantial differences between these values in 2005 and 2010 support the claim that a general measure may not fully reflect uncertainty about specific areas of policy. Choice A is incorrect because the graph shows that the level of general economic policy uncertainty was similar to the level of uncertainty about tax and public spending policy in both 2005 (with values of approximately 90 and 100, respectively) and 2009 (with values of approximately 80 and 75, respectively). Choice B is incorrect because the graph shows that general economic policy uncertainty was higher than uncertainty about tax and public spending policy in 2006, 2007, and 2009, not that it was lower each year from 2005 to 2010. Choice C is incorrect because the graph shows that general economic policy uncertainty reached its highest level in 2010, which was when uncertainty about tax and public spending policy also reached its highest level, not its lowest level."
+  },
+  {
+    "id": "29f5c8c2",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "question": "Which quotation from a researcher would best support the student's assertion?",
+    "passage": "Fish whose DNA has been modified to include genetic material from other species are known as transgenic. Some transgenic fish have genes from jellyfish that result in fluorescence (that is, they glow in the dark). Although these fish were initially engineered for research purposes in the 1990s, they were sold as pets in the 2000s and can now be found in the wild in creeks in Brazil. A student in a biology seminar who is writing a paper on these fish asserts that their escape from Brazilian fish farms into the wild may have significant negative long-term ecological effects.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "\"In one site in the wild where transgenic fish were observed, females outnumbered males, while in another the numbers of females and males were equivalent.\""
+      },
+      {
+        "label": "B",
+        "text": "\"Though some presence of transgenic fish in the wild has been recorded, there are insufficient studies of the impact of those fish on the ecosystems into which they are introduced.\""
+      },
+      {
+        "label": "C",
+        "text": "\"The ecosystems into which transgenic fish are known to have been introduced may represent a subset of the ecosystems into which the fish have actually been introduced.\""
+      },
+      {
+        "label": "D",
+        "text": "\"Through interbreeding, transgenic fish might introduce the trait of fluorescence into wild fish populations, making those populations more vulnerable to predators.\""
+      }
+    ],
+    "correct": "D",
+    "rationale": "Choice D is the best answer because this quotation would best support the student's assertion that the escape of transgenic fish from Brazilian fish farms into the wild may have significant negative long-term ecological effects. The text explains that transgenic fish have DNA that includes genetic material from other species, that some transgenic fish have genes from jellyfish that make them glow in the dark, and that glow-in-the-dark transgenic fish can now be found in the wild in Brazilian creeks. The quotation indicates why the escape of these fish may have negative long-term ecological effects: glow-in-the-dark transgenic fish might introduce fluorescence into wild fish populations by breeding with wild fish, causing wild fish to glow in the dark and thereby allowing predators to prey on them much more easily. Choice A is incorrect because this quotation doesn't mention any negative effects of the introduction of fluorescent transgenic fish into the wild. The quotation merely compares the ratio of females to males at two sites in the wild where transgenic fish have been observed. Choice B is incorrect because this quotation doesn't support the idea that the escape of fluorescent transgenic fish from Brazilian fish farms may have significant negative long-term ecological effects. Rather, the quotation suggests that more research is needed to understand the effects. Choice C is incorrect because this quotation supports the idea that transgenic fish may be present in more ecosystems than has been observed; it doesn't address whether the presence of fluorescent transgenic fish affects these ecosystems."
+  },
+  {
+    "id": "1281dfd5",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Hard",
+    "question": "Which choice most effectively uses data from the graph to complete the text?",
+    "chart": {
+      "type": "bar",
+      "title": "Number of Lizard Species by Average Percent of Maximal Speed Used When Pursuing Prey or Escaping Predators",
+      "x_label": "Percent of maximal speed",
+      "y_label": "Number of lizard species",
+      "categories": [
+        "30–39",
+        "40–49",
+        "50–59",
+        "60–69",
+        "70–79",
+        "80–89",
+        "90–100"
+      ],
+      "series": [
+        {
+          "label": "escaping",
+          "color": "#000000",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            8
+          ]
+        },
+        {
+          "label": "pursuing",
+          "color": "#808080",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            4,
+            5
+          ]
+        }
+      ],
+      "grid": true,
+      "y_axis": {
+        "min": 0,
+        "max": 9,
+        "tick_interval": 1
+      }
+    },
+    "passage": "It may seem that the optimal strategy for an animal pursuing prey or escaping predators is to move at maximal speed, but the energy expense of exploiting full speed capacity can disfavor such a strategy even in escape contexts, as evidenced by the fact that ______",
+    "choices": [
+      {
+        "label": "A",
+        "text": "most lizard species use about the same percentage of their maximal speed when escaping predation as they do when pursuing prey."
+      },
+      {
+        "label": "B",
+        "text": "multiple lizard species move at an average of less than 90% of their maximal speed while escaping predation."
+      },
+      {
+        "label": "C",
+        "text": "more lizard species use, on average, 90%–100% of their maximal speed while escaping predation than use any other percentage of their maximal speed."
+      },
+      {
+        "label": "D",
+        "text": "at least 4 lizard species use, on average, less than 100% of their maximal speed while pursuing prey."
+      }
+    ],
+    "correct": "B",
+    "rationale": "Choice B is the best answer because it describes data from the graph that complete the text's discussion of lizard species' use of maximal speed when escaping predators. According to the text, moving at maximal speed (the highest speed possible) requires so much energy that it is not always an effective strategy for animals, even when they are escaping predators. The graph displays data on the average percent of maximal speed used by lizard species while either escaping predators or pursuing prey. The graph categorizes the data for both pursuing and escaping by the number of species using 30%–39% of maximal speed, 40%–49% of maximal speed, 50%–59% of maximal speed, 60%–69% of maximal speed, 70%–79% of maximal speed, 80%–89% of maximal speed, and 90%–100% of maximal speed, respectively. In the graph, there is at least one species in each of the following percent categories for maximal speed while escaping predators: 50%–59%, 60%–69%, 70%–79%, and 80%–89%. Thus, the data in the graph show that multiple lizard species move at an average of less than 90% of their maximal speed while escaping predation. Choice A is incorrect because the data in the graph isn't organized in such a way that a comparison of the percentage of maximal speed used when escaping predation with the percentage used when pursuing prey is possible at the level of individual species. Choice C is incorrect. It is true that in the graph, the percent category with the largest number of species using maximal speed while escaping predators is 90%–100% (8 species total). However, these data don't complete the text, which is concerned instead with how animals are discouraged from using maximal speed even when escaping predators because of the amount of energy required to use it. Choice D is incorrect because these data from the graph pertain to maximal speed while pursuing prey and therefore don't complete the text's discussion of lizard species' use of maximal speed when escaping predators."
+  },
+  {
+    "id": "d83c3d54",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "question": "Which choice best describes data from the graph that support Martinez and colleagues' conclusion?",
+    "chart": {
+      "type": "bar",
+      "title": "Characteristics of the Banks of the Provo River Downstream of the Jordanelle Dam",
+      "x_label": "Year",
+      "y_label": "Area (square meters)",
+      "categories": [
+        "1987",
+        "1993",
+        "2006"
+      ],
+      "series": [
+        {
+          "label": "grass cover",
+          "color": "#90EE90",
+          "values": [
+            58000,
+            92000,
+            115000
+          ]
+        },
+        {
+          "label": "bare soil",
+          "color": "#D2B48C",
+          "values": [
+            68000,
+            55000,
+            48000
+          ]
+        },
+        {
+          "label": "forest cover",
+          "color": "#228B22",
+          "values": [
+            75000,
+            62000,
+            48000
+          ]
+        }
+      ],
+      "grid": true,
+      "y_axis": {
+        "min": 0,
+        "max": 140000,
+        "tick_interval": 20000
+      }
+    },
+    "passage": "The Jordanelle Dam was built on the Provo River in Utah in 1992. Earth scientist Adriana E. Martinez and colleagues tracked changes to the environment on the banks of the river downstream of the dam, including how much grass and forest cover were present. They concluded that the dam changed the flow of the river in ways that benefited grass plants but didn't benefit trees.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The lowest amount of grass cover was approximately 58,000 square meters, and the highest amount of forest cover was approximately 75,000 square meters."
+      },
+      {
+        "label": "B",
+        "text": "There was more grass cover than forest cover in 1987, and this difference increased dramatically in 1993 and again in 2006."
+      },
+      {
+        "label": "C",
+        "text": "There was less grass cover than bare soil in 1987 but more grass cover than bare soil in 1993 and 2006, whereas there was more forest cover than bare soil in all three years."
+      },
+      {
+        "label": "D",
+        "text": "Grass cover increased from 1987 to 1993 and from 1993 to 2006, whereas forest cover decreased in those periods."
+      }
+    ],
+    "correct": "D",
+    "rationale": "Choice D is the best answer because it describes data from the graph that support Martinez and colleagues' conclusion that the Jordanelle Dam led to changes that benefited grass plants but not trees. The graph shows characteristics of the banks of the Provo River downstream of the Jordanelle Dam in three different years—1987, 1993, and 2006. Specifically, the graph shows the amount of grass cover, bare soil, and forest cover in those years. The text indicates that the Jordanelle Dam was built in 1992, meaning that the data from the graph for 1987 reflect conditions before the dam was built, whereas the data for 1993 and 2006 reflect conditions after the dam was built. The data show that grass cover increased substantially from 1987 to 1993 and again from 1993 to 2006. The data also show that forest cover declined over those periods. Together, these data support Martinez and colleagues' conclusion that the dam was beneficial for grass plants but not for trees—grass cover increased significantly after the dam was built, while forest cover declined. Choice A is incorrect. Although it is true that, in the graph, the lowest value for grass cover is approximately 58,000 square meters and the highest value for forest cover is approximately 75,000 square meters, both values are from 1987, before the Jordanelle Dam was built in 1992. Therefore, this information alone cannot support Martinez and colleagues' conclusion about changes in grass and tree cover following the construction of the dam. Choice B is incorrect because it presents an inaccurate description of data from the graph. The graph shows that there was more forest cover than grass cover in 1987, not that there was more grass cover than forest cover that year. Choice C is incorrect because, while it accurately reflects data from the graph when it compares grass cover and forest cover to bare soil, these data alone cannot support Martinez and colleagues' conclusion that the dam led to changes that benefited grass plants but not trees. An increase in grass cover relative to bare soil following the construction of the dam might indicate that the dam benefited grass plants, but the fact that there was more forest cover than bare soil in all three years doesn't indicate that the dam failed to benefit trees."
+  },
+  {
+    "id": "ca5a3fb4",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
+    "question": "Which choice most logically completes the text?",
+    "passage": "The practice of logging (cutting down trees for commercial and other uses) is often thought to be at odds with forest conservation (the work of preserving forests). However, a massive study in forest management and preservation spanning 700,000 hectares in Oregon's Malheur National Forest calls that view into question. So far, results of the study suggest that forest plots that have undergone limited logging (the careful removal of a controlled number of trees) may be more robust than plots that haven't been logged at all. These results, in turn, suggest that ______",
+    "choices": [
+      {
+        "label": "A",
+        "text": "logging may be useful for maintaining healthy forests, provided it is limited."
+      },
+      {
+        "label": "B",
+        "text": "other forest management strategies are more effective than limited logging."
+      },
+      {
+        "label": "C",
+        "text": "as time passes, it will be difficult to know whether limited logging has any benefits."
+      },
+      {
+        "label": "D",
+        "text": "the best way to support forest health may be to leave large forests entirely untouched."
+      }
+    ],
+    "correct": "A",
+    "rationale": "Choice A is the best answer because it most logically completes the text's discussion of the potential effects of logging on forest conservation. The text begins by stating that logging practices are often thought of as being contrary to forest conservation efforts. Then, the text presents the results of a research study examining the effect of limited logging practices on specific forest plots, finding that the plots with limited logging may be \"more robust\" (healthier) than the plots that hadn't been logged at all. Given these results, it follows that logging may be a useful practice for maintaining healthy forests if it is practiced in a limited way. Choice B is incorrect because the study referenced in the text only provides information on limited logging as a potential forest management strategy. There is no information in the text about how other forest management strategies support forest conservation efforts. Therefore, the text does not support the assertion that other forest management strategies are more successful than limited logging. Choice C is incorrect because the text presents a research study with findings that specific plots of forest with limited logging may be more robust than the forest plots that were not logged. Rather than suggesting that it is hard to know whether limited logging might be beneficial, the text suggests that the practice could be useful in forest conservation efforts. Choice D is incorrect. The text discusses the results of a research study that compares the health of forest plots with limited logging to forest plots that were not logged. It does not take a position on the best way to support forest health but rather presents a research study with findings that question conventionally held thoughts regarding the practice of logging."
+  },
+  {
+    "id": "98d0a5d7",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Hard",
+    "question": "Which finding from the study, if true, would most directly support the researchers' conclusion?",
+    "passage": "Almost all works of fiction contain references to the progression of time, including the time of day when events in a story take place. In a 2020 study, Allen Kim, Charuta Pethe, and Steven Skiena claim that an observable pattern in such references reflects a shift in human behavior prompted by the spread of electric lighting in the late nineteenth century. The researchers drew this conclusion from an analysis of more than 50,000 novels spanning many centuries and cultures, using software to recognize and tally both specific time references—that is, clock phrases, such as 7 a.m. or 2:30 p.m.—and implied ones, such as mentions of meals typically associated with a particular time of day.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Novels published after the year 1800 include the clock phrase 10 a.m. less often than novels published before the year 1800 do."
+      },
+      {
+        "label": "B",
+        "text": "Novels published after 1880 contain significantly more references to activities occurring after 10 p.m. than do novels from earlier periods."
+      },
+      {
+        "label": "C",
+        "text": "Among novels published in the nineteenth century, implied time references become steadily more common than clock phrases as publication dates approach 1900."
+      },
+      {
+        "label": "D",
+        "text": "The time references of noon (12 p.m.) and midnight (12 a.m.) are used with roughly the same frequency in the novels."
+      }
+    ],
+    "correct": "B",
+    "rationale": "Choice B is the best answer because it presents a finding that, if true, would most directly support the researchers' conclusion that an observable pattern in time references in novels reflects a shift in human behavior prompted by the spread of electric lighting in the late nineteenth century. If novels published after 1880 contain significantly more references to activities occurring after 10 p.m. than novels from earlier periods do, this would suggest a change in human behavior and daily routines enabled by the availability of electric lighting. Before electric lighting—which provided illumination more easily than other available forms of light—many activities ceased after nightfall, so references to late-night activities would be less common in earlier novels. An increase in such references after 1880 would align with the researchers' conclusion, reflecting an increase in late-night activities made possible by electric lighting. Choice A is incorrect because a decrease in references to 10 a.m. after the year 1800 would not support the researchers' conclusion involving a shift in human behavior prompted by the spread of electric lighting toward the end of the 1800s. The time of 10 a.m. is in the morning and, in most places, characterized by daylight, so a change in references to that time would not be clearly linked to the impact of electric lighting. Choice C is incorrect because while an increase in implied time references relative to clock phrases in nineteenth-century novels could suggest a change in writing style or conventions, it does not directly support the conclusion involving a shift in human behavior prompted by the spread of electric lighting. The text indicates that the researchers' conclusion is based on the content of the time references themselves, not the phrasing used. Choice D is incorrect. If references to noon and midnight are used with roughly the same frequency in all the novels analyzed by the researchers, this would reflect a lack of change in human behavior with regard to time and therefore would not support the researchers' conclusion involving a shift in human behavior that occurred in response to the spread of electric lighting."
+  },
+  {
+    "id": "cf956802",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "question": "Based on the text, what would have been the most likely consequence if New had not begun using sewing machines?",
+    "passage": "When fashion designer Lloyd Henri Kiva New opened his store in Scottsdale, Arizona, in 1945, he quickly became known for creating delicately crafted leather goods, like belts and hats. He was perhaps most renowned for his colorful handbags, which he made by hand using a long and painstaking process. As he gained more customers, New began using sewing machines and other tools to help him produce bags more efficiently, though he continued to handcraft the crucial details that made each bag unique.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "He would have been unable to ensure that each bag included unique, handcrafted details."
+      },
+      {
+        "label": "B",
+        "text": "He would have struggled to meet the increasing demand for his bags."
+      },
+      {
+        "label": "C",
+        "text": "He would have had to individually design each bag he produced."
+      },
+      {
+        "label": "D",
+        "text": "He would not have been able to generate as much interest in his bags."
+      }
+    ],
+    "correct": "B",
+    "rationale": "Choice B is the best answer because it presents the most likely consequence if New had not begun using sewing machines. The text states that New gained new customers and that sewing machines allowed him to make bags more efficiently, or in less time than he could when sewing by hand. It's reasonable to conclude that if New hadn't reduced the time it took to make each bag by starting to use sewing machines, it would have been hard for him to keep up with the increased demand. Choice A is incorrect because the text indicates that New added unique, handcrafted details to his bags before he started using sewing machines and continued to do so after he started using them. Choice C is incorrect because the text doesn't suggest that individually designing each bag would have been a consequence of not using sewing machines, since New was already designing unique details for each bag before he started using sewing machines and continued to do so after he started using them. Choice D is incorrect because the text indicates that people were already interested in New's bags before he started using sewing machines. Rather than allowing New to generate more interest in his bags, sewing machines helped New keep up with the interest that had already grown."
+  },
+  {
+    "id": "95388117",
+    "test": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "question": "Which choice most effectively uses data from the table to complete the comparison?",
+    "table": {
+      "title": "Land Area Covered by Native Flowering Plants at a Site in Antarctica",
+      "rows": [
+        {
+          "type": "header",
+          "cells": [
+            "Species",
+            "Area covered in 2009 (in square meters)",
+            "Area covered in 2018 (in square meters)",
+            "Percent increase in area covered from 2009 to 2018"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Deschampsia antarctica",
+            "1,230",
+            "1,576",
+            "28%"
+          ]
+        },
+        {
+          "type": "data",
+          "cells": [
+            "Colobanthus quitensis",
+            "6.9",
+            "10.7",
+            "55%"
+          ]
+        }
+      ]
+    },
+    "passage": "The only flowering plant species native to Antarctica, Colobanthus quitensis and Deschampsia antarctica grow in places where the earth remains free of ice for much of the year. Botanist Niccoletta Cannone wondered how the warming of Antarctica's climate in recent years had affected these species, so she visited a site in Antarctica, first in 2009 and later in 2018, to count the number of plants growing there. Cannone found that the area of land covered by the two species had significantly expanded during the nine-year period. While both species likely benefited from warming temperatures, Colobanthus quitensis ______",
+    "choices": [
+      {
+        "label": "A",
+        "text": "suppressed the growth of Deschampsia antarctica, which covered a smaller area of land in 2018 than it had in 2009."
+      },
+      {
+        "label": "B",
+        "text": "saw a greater expansion than Deschampsia antarctica did, increasing the area of land it covered by more than half."
+      },
+      {
+        "label": "C",
+        "text": "showed a greater increase in the average size of individual plants than Deschampsia antarctica did."
+      },
+      {
+        "label": "D",
+        "text": "covered land newly freed from ice at a rate 55% faster than that of Deschampsia antarctica."
+      }
+    ],
+    "correct": "B",
+    "rationale": "Choice B is the best answer because it most effectively uses data from the table to complete the comparison of how Colobanthus quitensis benefited from warming temperatures with how Deschampsia antarctica benefited from them. The table shows the land area covered by these two plant species at a site in Antarctica. According to the table, Colobanthus quitensis increased the area it covered by 55% from 2009 to 2018, whereas Deschampsia antarctica increased the area it covered by 28% during the same period. It therefore follows that Colobanthus quitensis saw a greater expansion than Deschampsia antarctica did and that Colobanthus quitensis increased the area of land it covered by more than half. Choice A is incorrect because according to the table, Deschampsia antarctica covered 1,230 square meters of land in 2009 and 1,576 square meters of land in 2018. Deschampsia antarctica therefore covered a larger, not a smaller, area of land in 2018 than in 2009. Moreover, there's no information in the text or the table that suggests that one species of the plant suppressed the other. Choice C is incorrect because it inaccurately describes the data in the table. The table shows the land area covered by Colobanthus quitensis and Deschampsia antarctica and the percent increase in area covered by the two species from 2009 to 2018, not the average size of individual plants belonging to the two species. The data in the table therefore can't be used to make a comparison of the increase in individual plants' average size. Choice D is incorrect because the table shows the land area covered by Colobanthus quitensis and Deschampsia antarctica and the percent increase in area covered by the two species from 2009 to 2018, not the rate at which the species increased the area they covered. Moreover, there's nothing in the table or the text that suggests that the areas covered by the two species were newly freed from ice."
+  }
+]

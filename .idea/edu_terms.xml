@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TermsProjectSettings">
+    <currentTermsLanguage>en</currentTermsLanguage>
+    <terms>
+      <map>
+        <entry key="en">
+          <value>
+            <map>
+              <entry key="12925872">
+                <value>
+                  <list>
+                    <Term value="widgets" definition="A GUI element like a button, label, or text box in a graphical interface." />
+                    <Term value="GUI" definition="Graphical User Interface; allows users to interact with programs visually, using windows, buttons, etc." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="25395642">
+                <value>
+                  <list>
+                    <Term value="widget" definition="A GUI element, like a button or label, used to build graphical interfaces." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="25805360">
+                <value>
+                  <list>
+                    <Term value="Popup menus" definition="A context-sensitive menu that appears upon user interaction, often right-click, offering relevant commands." />
+                    <Term value="commands" definition="Actions or functions that can be triggered from a menu or user interface element." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="193930758">
+                <value>
+                  <list>
+                    <Term value="widget" definition="A GUI element that displays information or provides a way for user interaction." />
+                    <Term value="GUI" definition="Graphical User Interface, allows users to interact with programs visually instead of via text." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="209489228">
+                <value>
+                  <list>
+                    <Term value="grid" definition="A geometry manager in Tkinter to arrange widgets in rows and columns." />
+                    <Term value="config" definition="A method in Tkinter to change widget properties after creation." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="245007022">
+                <value>
+                  <list>
+                    <Term value="widgets" definition="A GUI element, like a button or label, that users interact with in an application." />
+                    <Term value="container" definition="A GUI component that holds and organizes other widgets or elements within a window." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="277017603">
+                <value>
+                  <list>
+                    <Term value="widgets" definition="GUI elements like buttons, labels, or text entries in a graphical user interface." />
+                    <Term value="Frame" definition="A container widget in Tkinter used to organize and group other widgets." />
+                    <Term value="Columnspan" definition="A grid option that allows a widget to span across multiple columns." />
+                    <Term value="rowspan" definition="A grid option that allows a widget to span across multiple rows." />
+                    <Term value="sticky" definition="A grid option that controls widget alignment within its grid cell." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="281868958">
+                <value>
+                  <list>
+                    <Term value="label" definition="A widget that displays text or images, often used for titles or status messages in GUIs." />
+                    <Term value="frames" definition="Containers used to organize and group other widgets in a GUI layout." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="292507786">
+                <value>
+                  <list>
+                    <Term value="Grid" definition="A geometry manager in Tkinter for placing widgets in a table-like structure." />
+                    <Term value="window" definition="A graphical interface element that displays content and allows user interaction." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="326845200">
+                <value>
+                  <list>
+                    <Term value="global variable" definition="A variable defined outside functions, accessible and modifiable throughout the entire program." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="342143276">
+                <value>
+                  <list>
+                    <Term value="Label" definition="A Tkinter widget used to display text or images in a window." />
+                    <Term value="widget" definition="A graphical element in a GUI, like a button, label, or text box." />
+                    <Term value="pack" definition="A Tkinter geometry manager that organizes widgets in blocks before placing them in the parent window." />
+                    <Term value="mainloop" definition="A Tkinter method that runs the event loop, keeping the window open and responsive." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="449878751">
+                <value>
+                  <list>
+                    <Term value="config" definition="A method to change widget properties after creation in Python GUI libraries like Tkinter." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="464994714">
+                <value>
+                  <list>
+                    <Term value="module" definition="A file containing Python code, such as functions or classes, that can be imported and used in programs." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="497047902">
+                <value>
+                  <list>
+                    <Term value="label" definition="A GUI widget in Tkinter used to display text or images." />
+                    <Term value="entry" definition="A Tkinter widget that allows the user to input a single line of text." />
+                    <Term value="Buttons" definition="A Tkinter widget that users can click to trigger an action or command." />
+                    <Term value="Commands" definition="A function or method assigned to a widget, executed when the widget is interacted with." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="563139153">
+                <value>
+                  <list>
+                    <Term value="label" definition="A GUI element that displays text or images, often used to show information to users." />
+                    <Term value="buttons" definition="Clickable GUI elements that perform an action when pressed by the user." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="590830338">
+                <value>
+                  <list>
+                    <Term value="Binding" definition="Associating an event, like a key press, with a specific function or action in code." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="673502476">
+                <value>
+                  <list>
+                    <Term value="canvas" definition="A drawing area in a graphical user interface where shapes and images can be rendered." />
+                    <Term value="ovals" definition="Elliptical shapes that can be drawn on a graphical canvas using specific drawing functions." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="982306720">
+                <value>
+                  <list>
+                    <Term value="Bind" definition="A method to connect an event with a function to handle user actions in GUI programming." />
+                    <Term value="widget" definition="A GUI element, like a button or label, used to build interfaces in applications." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1009890587">
+                <value>
+                  <list>
+                    <Term value="widget" definition="A GUI element like a button or label used in graphical user interfaces." />
+                    <Term value="Button" definition="A clickable GUI widget that performs an action when pressed." />
+                    <Term value="Labels" definition="A GUI widget used to display text or images in an interface." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1009995007">
+                <value>
+                  <list>
+                    <Term value="Tkinter" definition="A standard Python library for creating graphical user interfaces (GUIs)." />
+                    <Term value="Python docs" definition="Official documentation for the Python programming language and its libraries." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1087606299">
+                <value>
+                  <list>
+                    <Term value="add_cascade" definition="A method in Tkinter's Menu widget to add a submenu to an existing menu." />
+                    <Term value="add_separator" definition="A method in Tkinter's Menu widget to insert a horizontal line separating menu items." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1141309658">
+                <value>
+                  <list>
+                    <Term value="spinbox" definition="A widget allowing users to select from a range of values using up/down arrows." />
+                    <Term value="radio box" definition="A widget allowing users to select one option from a set of choices." />
+                    <Term value="check buttons" definition="Widgets that let users select or deselect multiple independent options." />
+                    <Term value="Canvas widget" definition="A widget for drawing graphics, shapes, or images programmatically." />
+                    <Term value="Scale widget" definition="A widget that lets users select a value by sliding a bar." />
+                    <Term value="Spinbox widget" definition="A widget for selecting from a sequence of values, typically with arrows." />
+                    <Term value="Radio button" definition="A widget that allows selection of only one option from a group." />
+                    <Term value="check buttons" definition="A widget representing a box that can be checked or unchecked." />
+                    <Term value="message box" definition="A dialog window that displays messages or warnings to the user." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1166892695">
+                <value>
+                  <list>
+                    <Term value="widget" definition="A GUI element, like a button or label, that users interact with in an application." />
+                    <Term value="label" definition="A Tkinter widget used to display text or images in a GUI window." />
+                    <Term value="buttons" definition="A Tkinter widget that users can click to perform an action." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1192671492">
+                <value>
+                  <list>
+                    <Term value="Tk" definition="Tk is a class in Tkinter that creates the main application window." />
+                    <Term value="Label" definition="Label is a Tkinter widget used to display text or images in a GUI." />
+                    <Term value="pack" definition="pack is a geometry manager in Tkinter that organizes widgets in blocks before placing them in the parent window." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1251660964">
+                <value>
+                  <list>
+                    <Term value="Tkinter" definition="A standard Python library for creating graphical user interfaces (GUIs)." />
+                    <Term value="GUI" definition="Graphical User Interface; allows users to interact with programs visually." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1359752715">
+                <value>
+                  <list>
+                    <Term value="widget" definition="A GUI element, like a button or label, that displays information or provides user interaction." />
+                    <Term value="call-back" definition="A function passed as an argument, to be called in response to an event." />
+                    <Term value=".grid()" definition="A geometry manager method in Tkinter to arrange widgets in a grid layout." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1391604560">
+                <value>
+                  <list>
+                    <Term value="Label" definition="A Tkinter widget used to display text or images in a GUI window." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1439159662">
+                <value>
+                  <list>
+                    <Term value="Pack" definition="A geometry manager in Tkinter used to organize widgets in a window." />
+                    <Term value="orient" definition="An option in Tkinter widgets to specify horizontal or vertical layout." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1486491172">
+                <value>
+                  <list>
+                    <Term value="canvas" definition="An area in a graphical interface where shapes and images can be drawn programmatically." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1531311727">
+                <value>
+                  <list>
+                    <Term value="widget" definition="A GUI element like a button or label in a graphical user interface framework." />
+                    <Term value="popup" definition="A window that appears on top of the main window to display information or prompt the user." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1558153060">
+                <value>
+                  <list>
+                    <Term value="submenu" definition="A menu item that opens an additional menu with more options when selected." />
+                    <Term value="separators" definition="Visual dividers used in menus to group related commands for better organization." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1576418499">
+                <value>
+                  <list>
+                    <Term value="function" definition="A named block of code that performs a specific task and can be called multiple times." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1699497852">
+                <value>
+                  <list>
+                    <Term value="Tkinter" definition="A standard Python library for creating graphical user interfaces (GUIs)." />
+                    <Term value="frame" definition="A Tkinter widget used as a container to organize other widgets in a window." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1735594896">
+                <value>
+                  <list>
+                    <Term value="canvas" definition="A Tkinter widget used for drawing shapes, images, or handling custom graphics." />
+                    <Term value="widget" definition="A GUI element in Tkinter, like a button, label, or canvas." />
+                    <Term value="radio buttons" definition="GUI elements allowing users to select one option from a set." />
+                    <Term value="tear off menu" definition="A menu in Tkinter that can be detached and moved as a separate window." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1827518628">
+                <value>
+                  <list>
+                    <Term value="menu" definition="A Tkinter widget that creates a menu bar or pop-up menu in a window." />
+                    <Term value="config" definition="A method used to configure widget options after creation in Tkinter." />
+                    <Term value="widgets" definition="A GUI element in Tkinter, such as a button, label, or menu." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1841272316">
+                <value>
+                  <list>
+                    <Term value="state" definition="A property of Tkinter widgets controlling their interaction mode, like NORMAL or DISABLED." />
+                    <Term value="disabling" definition="A Tkinter constant used to make a widget unresponsive to user actions." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1912304247">
+                <value>
+                  <list>
+                    <Term value="Bind" definition="Associate an event with a function so it runs when the event occurs." />
+                    <Term value="Menu" definition="A Tkinter widget for creating menus in Python GUI applications." />
+                    <Term value="widget" definition="A GUI element like a button, label, or text box in a window." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1944109745">
+                <value>
+                  <list>
+                    <Term value="Widgets" definition="GUI elements like buttons, labels, or text boxes in a graphical application." />
+                    <Term value="Tkinter" definition="A standard Python library for creating graphical user interfaces (GUIs)." />
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+      </map>
+    </terms>
+    <termsVersions>
+      <map>
+        <entry key="en" value="76" />
+      </map>
+    </termsVersions>
+  </component>
+</project>

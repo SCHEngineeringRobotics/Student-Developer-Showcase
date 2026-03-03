@@ -1,0 +1,31 @@
+[
+  {
+    "id": "e818241b",
+    "test": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Hard",
+    "question": "Which choice best describes the function of the second sentence in the overall structure of the text?",
+    "passage": "Astronomers are confident that the star Betelgeuse will eventually consume all the helium in its core and explode in a supernova. THEY ARE MUCH LESS CONFIDENT, HOWEVER, ABOUT WHEN THIS WILL HAPPEN, SINCE THAT DEPENDS ON INTERNAL CHARACTERISTICS OF BETELGEUSE THAT ARE LARGELY UNKNOWN. Astrophysicist Sarafina El-Badry Nance and colleagues recently investigated whether acoustic waves in the star could be used to determine internal stellar states but concluded that this method could not sufficiently reveal Betelgeuse's internal characteristics to allow its evolutionary state to be firmly fixed.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "It describes a serious limitation of the method used by Nance and colleagues."
+      },
+      {
+        "label": "B",
+        "text": "It presents the central finding reported by Nance and colleagues."
+      },
+      {
+        "label": "C",
+        "text": "It identifies the problem that Nance and colleagues attempted to solve but did not."
+      },
+      {
+        "label": "D",
+        "text": "It explains how the work of Nance and colleagues was received by others in the field."
+      }
+    ],
+    "correct": "C",
+    "rationale": "Choice C is the best answer because it best describes how the second sentence functions in the text as a whole. The first sentence establishes something astronomers believe with some certainty: that Betelgeuse will explode in a supernova. The second sentence then introduces a problem: astronomers aren't certain when Betelgeuse will explode because they don't have enough information about the star's internal characteristics. Finally, the third sentence indicates that researcher Sarafina El-Badry Nance and colleagues investigated a possible method of obtaining the necessary information about Betelgeuse's internal characteristics, though they found that the method wouldn't be sufficient. Thus, the function of the second sentence is to identify the problem that Nance and colleagues attempted to solve but didn't. Choice A is incorrect because the second sentence introduces the general problem Nance and colleagues hoped to solve, not a serious limitation of how Nance and colleagues tried to solve it. It is the third sentence that introduces Nance and colleagues, but no serious limitation of their approach to studying a method of determining internal stellar states is described. Choice B is incorrect because the second sentence introduces the general problem Nance and colleagues hoped to solve, not the central finding they ultimately reported. It is the third sentence that presents Nance and colleagues' conclusion that a potential method for determining internal stellar states would be insufficient. Choice D is incorrect because the second sentence doesn't indicate how other astronomers or astrophysicists responded to the work done by Nance and colleagues; the text doesn't address this information at all."
+  }
+]
