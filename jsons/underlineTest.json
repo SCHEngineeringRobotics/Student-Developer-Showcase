@@ -6,7 +6,7 @@
     "skill": "Text Structure and Purpose",
     "difficulty": "Hard",
     "question": "Which choice best describes the function of the second sentence in the overall structure of the text?",
-    "passage": "Astronomers are confident that the star Betelgeuse will eventually consume all the helium in its core and explode in a supernova. THEY ARE MUCH LESS CONFIDENT, HOWEVER, ABOUT WHEN THIS WILL HAPPEN, SINCE THAT DEPENDS ON INTERNAL CHARACTERISTICS OF BETELGEUSE THAT ARE LARGELY UNKNOWN. Astrophysicist Sarafina El-Badry Nance and colleagues recently investigated whether acoustic waves in the star could be used to determine internal stellar states but concluded that this method could not sufficiently reveal Betelgeuse's internal characteristics to allow its evolutionary state to be firmly fixed.",
+    "passage": "Astronomers are confident that the star Betelgeuse will eventually consume all the helium in its core and explode in a supernova. _They are much less confident, however, about when this will happen, since that depends on internal characteristics of Betelgeuse that are largely unknown._ Astrophysicist Sarafina El-Badry Nance and colleagues recently investigated whether acoustic waves in the star could be used to determine internal stellar states but concluded that this method could not sufficiently reveal Betelgeuse's internal characteristics to allow its evolutionary state to be firmly fixed.",
     "choices": [
       {
         "label": "A",

@@ -1,35 +1,21 @@
 {
   "last": {
     "domain times": {
-      "Information and Ideas": [
-        6,
-        3,
-        2
-      ],
+      "Information and Ideas": [],
       "Craft and Structure": [],
       "Expression of Ideas": [],
       "Standard English Conventions": []
     },
     "difficulty times": {
-      "Easy": [
-        2
-      ],
-      "Medium": [
-        3
-      ],
-      "Hard": [
-        6
-      ]
+      "Easy": [],
+      "Medium": [],
+      "Hard": []
     },
-    "overall times": [
-      6,
-      3,
-      2
-    ],
+    "overall times": [],
     "domain": {
       "Information and Ideas": {
         "correct": 0,
-        "total": 3
+        "total": 0
       },
       "Craft and Structure": {
         "correct": 0,
@@ -47,74 +33,58 @@
     "difficulty": {
       "Easy": {
         "correct": 0,
-        "total": 1
+        "total": 0
       },
       "Medium": {
         "correct": 0,
-        "total": 1
+        "total": 0
       },
       "Hard": {
         "correct": 0,
-        "total": 1
+        "total": 0
       }
     },
     "overall": {
       "correct": 0,
-      "total": 3
+      "total": 0
     }
   },
   "alltime": {
     "domain times": {
-      "Information and Ideas": [
-        50,
-        5,
-        3,
-        1,
-        2,
-        2,
-        4,
-        6,
-        3,
-        2
-      ],
+      "Information and Ideas": [],
       "Craft and Structure": [],
       "Expression of Ideas": [],
-      "Standard English Conventions": []
+      "Standard English Conventions": [
+        11,
+        35,
+        30,
+        30,
+        39
+      ]
     },
     "difficulty times": {
       "Easy": [
-        4,
-        2
+        11,
+        30,
+        39
       ],
       "Medium": [
-        3,
-        2,
-        3
+        35,
+        30
       ],
-      "Hard": [
-        50,
-        5,
-        1,
-        2,
-        6
-      ]
+      "Hard": []
     },
     "overall times": [
-      50,
-      5,
-      3,
-      1,
-      2,
-      2,
-      4,
-      6,
-      3,
-      2
+      11,
+      35,
+      30,
+      30,
+      39
     ],
     "domain": {
       "Information and Ideas": {
-        "correct": 2,
-        "total": 10
+        "correct": 0,
+        "total": 0
       },
       "Craft and Structure": {
         "correct": 0,
@@ -125,47 +95,37 @@
         "total": 0
       },
       "Standard English Conventions": {
-        "correct": 0,
-        "total": 0
+        "correct": 4,
+        "total": 5
       }
     },
     "difficulty": {
       "Easy": {
-        "correct": 0,
-        "total": 2
+        "correct": 3,
+        "total": 3
       },
       "Medium": {
         "correct": 1,
-        "total": 3
+        "total": 2
       },
       "Hard": {
-        "correct": 1,
-        "total": 5
+        "correct": 0,
+        "total": 0
       }
     },
     "overall": {
-      "correct": 2,
-      "total": 10
+      "correct": 4,
+      "total": 5
     }
   },
   "qCompleted": [
-    "a15b3219",
-    "d73a908a",
-    "8c1be131",
-    "ca5a3fb4",
-    "f1bfbed3",
-    "1281dfd5",
-    "95388117",
-    "cf956802",
-    "d748c3fd",
-    "ed314256",
-    "29f5c8c2",
-    "1ba5ad7a",
-    "75e07a4d",
-    "98d0a5d7",
-    "458b4a11",
-    "602b47c7",
-    "3543e6e2",
-    "702eb7e3"
+    "60713427",
+    "870ae7ec",
+    "2b512e65",
+    "1724dac2",
+    "e3b72630"
+  ],
+  "markedQuestions": [
+    "45a109a3"
   ]
 }

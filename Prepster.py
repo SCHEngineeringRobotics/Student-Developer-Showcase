@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import font
 from tkinter import ttk
-from random import randint
+from random import randint, shuffle
 import json
 import os
 import re
@@ -10,12 +10,27 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 import matplotlib.patches as mpatches
 
-with open('jsons/extendedDataTest.json', 'r') as file:
-    rawQuestions = json.load(file)
+# Import all JSON files from the jsons folder
+rawQuestions = []
+jsons_folder = 'final_jsons'
+if os.path.exists(jsons_folder):
+    for filename in os.listdir(jsons_folder):
+        if filename.endswith('.json'):
+            filepath = os.path.join(jsons_folder, filename)
+            try:
+                with open(filepath, 'r') as file:
+                    questions = json.load(file)
+                    if isinstance(questions, list):
+                        rawQuestions.extend(questions)
+                    else:
+                        rawQuestions.append(questions)
+                print(f"Loaded {filename}: {len(questions) if isinstance(questions, list) else 1} questions")
+            except Exception as e:
+                print(f"Error loading {filename}: {e}")
 
 w = Tk()
 w.title('Prepster')
-w.minsize(410, 285)
+w.minsize(280, 285)
 
 #vars
 Information_and_Ideas, Craft_and_Structure, Expression_of_Ideas, Conventions = (
@@ -51,14 +66,16 @@ difficulty_times_alltime = {k: [] for k in DIFFICULTIES}
 all_times_alltime = []
 
 qCompleted = []
-print('qCompleted: ', qCompleted)
+markedQuestions = []
 
 currentDom = None
 currentDiff = None
+currentQid = None
 
 cells = {}
 numCorrect = 0
 numIncorrect = 0
+
 r = None
 time = 1
 tick = 0
@@ -86,6 +103,7 @@ if os.path.exists("user_data.json") and go:
     difficulty_stats_alltime.update(stats["alltime"]["difficulty"])
     all_stats_alltime.update(stats["alltime"]["overall"])
     qCompleted[:] = stats["qCompleted"]
+    markedQuestions[:] = stats.get("markedQuestions", [])
 
 #funcs
 def avg_times(times):
@@ -122,7 +140,6 @@ def reset_questions():
     global qCompleted, qUncompleted, filteredQuestions
     qCompleted.clear()
     make_set()
-    print('Questions reset - qUncompleted: ', qUncompleted)
 
 def on_close():
     stats = {
@@ -143,6 +160,7 @@ def on_close():
             "overall": all_stats_alltime
         },
         "qCompleted": qCompleted,
+        "markedQuestions": markedQuestions,
     }
     print('saving user data to user_data.json')
     with open("user_data.json", "w") as f:
@@ -155,9 +173,9 @@ def update_timer():
     if tick % 10 == 0:
         try:
             infoLabel.config(
-                text=f"Last Question: {'Correct' if wasCorrect else f'Incorrect ({correct})'} | Questions remaining: {len(filteredQuestions) + 1} | Time elapsed: {time}")
+                text=f"Last Question: {'Correct' if wasCorrect else f'Incorrect ({correct})'} | Questions remaining: {len(qUncompleted)} | Time elapsed: {time}")
         except NameError:
-            infoLabel.config(text=f"Questions remaining: {len(filteredQuestions) + 1} | Time elapsed: {time}")
+            infoLabel.config(text=f"Questions remaining: {len(qUncompleted)} | Time elapsed: {time}")
         time += 1
     tick += 1
     timer_job = w2.after(100, update_timer)
@@ -184,7 +202,15 @@ def make_set():
            and (not selected_difficulties or q["difficulty"] in selected_difficulties)]
 
     qUncompleted = [q["id"] for q in filteredQuestions if q["id"] not in qCompleted]
-    print('qUncompleted: ', qUncompleted)
+    shuffle(qUncompleted)  # Randomize question order
+    update_start_button()
+
+def update_start_button():
+    """Enable/disable the start button based on whether there are questions available."""
+    if len(qUncompleted) == 0:
+        startButton.config(state=DISABLED, text="No questions in set")
+    else:
+        startButton.config(state=NORMAL, text="Start")
 
 def cell(text, r, c):
     lbl = Label(bottomFrame, text=text, borderwidth=1, relief="solid")
@@ -365,8 +391,7 @@ def create_line_chart(ax, chart_data):
 
 def set_text_with_underlines(text_widget, content, text_font):
     """
-    Set text in a Text widget, underlining any ALL CAPS words/phrases.
-    ALL CAPS is defined as 2+ consecutive uppercase letters.
+    Set text in a Text widget, underlining text surrounded by underscores: _underlined text_
     """
     text_widget.config(state='normal')
     text_widget.delete('1.0', END)
@@ -374,9 +399,8 @@ def set_text_with_underlines(text_widget, content, text_font):
     # Configure tags
     text_widget.tag_configure('underline', underline=True)
     
-    # Split and process text
-    # Pattern: Find sequences of 2+ uppercase letters (with optional spaces between words)
-    pattern = r'\b[A-Z]{2,}(?:\s+[A-Z]{2,})*\b'
+    # Pattern: Find text between underscores
+    pattern = r'_([^_]+)_'
     
     last_end = 0
     for match in re.finditer(pattern, content):
@@ -384,10 +408,8 @@ def set_text_with_underlines(text_widget, content, text_font):
         if match.start() > last_end:
             text_widget.insert(END, content[last_end:match.start()])
         
-        # Insert the ALL CAPS text with underline, but display it in normal case
-        caps_text = match.group()
-        # Convert to title case for display while keeping underline
-        display_text = caps_text.title()
+        # Insert the underlined text (without the underscores)
+        display_text = match.group(1)
         text_widget.insert(END, display_text, 'underline')
         
         last_end = match.end()
@@ -404,15 +426,12 @@ def set_text_with_underlines(text_widget, content, text_font):
     text_widget.config(state='disabled')
 
 def rand_question():
-    global correct, filteredQuestions, time, currentDiff, currentDom, tableFrame, chartFrame
+    global correct, filteredQuestions, time, currentDiff, currentDom, tableFrame, chartFrame, submitButton, skipButton, currentQid
     time = 0
-    r = randint(0,len(qUncompleted)-1)
-    qid = qUncompleted.pop(randint(0, len(qUncompleted) - 1))
-    qCompleted.append(qid)
+    currentQid = qUncompleted[0]  # Get the first uncompleted question without popping yet
     print('not seen questions indices: ', *qUncompleted)
     print('seen questions indices: ', *qCompleted)
-    q = next(q for q in filteredQuestions if q["id"] == qid)
-    filteredQuestions.remove(q)
+    q = next(q for q in filteredQuestions if q["id"] == currentQid)
     currentDiff = q["difficulty"]
     currentDom = q["domain"]
     correct = q['correct']
@@ -440,8 +459,7 @@ def rand_question():
         chartFrame.pack(fill="both", expand=True, padx=5, pady=(5, 0), before=passage)
     
     #update ui
-    dataLabel.config(text=f"ID: {q['id']}   |   Test: {q['test']}   |   Domain: {q['domain']}   |   Skill: {q['skill']}   |   Difficulty: {q['difficulty']}",
-                     font=font.Font(family='Helvetica', size=9))
+    dataLabel.config(text=f"ID: {q['id']}   |   Test: {q['test']}   |   Domain: {q['domain']}   |   Skill: {q['skill']}   |   Difficulty: {q['difficulty']}")
     
     # Set passage and question.
     # Use the underline-aware setter for the passage Text widget.
@@ -457,10 +475,27 @@ def rand_question():
     ansD.config(text=q['choices'][3]['text'])
     
     try:
-        infoLabel.config(text=f"Last Question: {'Correct' if wasCorrect else f'Incorrect ({correct})'} | Questions remaining: {len(filteredQuestions)+1} | Time elapsed: {time}")
+        remaining = len(qUncompleted)
+        infoLabel.config(text=f"Last Question: {'Correct' if wasCorrect else f'Incorrect ({correct})'} | Questions remaining: {remaining} | Time elapsed: {time}")
     except NameError:
-        infoLabel.config(text=f"Questions remaining: {len(filteredQuestions)+1} | Time elapsed: {time}")
-    return correct, r
+        remaining = len(qUncompleted)
+        infoLabel.config(text=f"Questions remaining: {remaining} | Time elapsed: {time}")
+    
+    # Update button labels for last question
+    if len(qUncompleted) == 1:
+        submitButton.config(text="Submit and complete test")
+        skipButton.config(text="Skip and complete test")
+    else:
+        submitButton.config(text="Submit")
+        skipButton.config(text="Skip")
+    
+    # Update mark button appearance based on whether question is marked
+    if currentQid in markedQuestions:
+        markButton.config(relief=SUNKEN, bg="lightblue")
+    else:
+        markButton.config(relief=RAISED, bg="SystemButtonFace")
+    
+    return correct, currentQid
 
 def record_answer(domain, difficulty, was_correct):
     domain_stats_last[domain]["total"] += 1
@@ -508,9 +543,77 @@ def update_table():
     cell(avg_times(all_times_alltime), 8, 3)
     cell(avg_times(all_times_last), 8, 4)
 
+def show_end_screen():
+    """
+    Display end of session screen with stats from current session.
+    Replaces testing window content with summary statistics.
+    """
+    global timer_job
+    
+    # Clear timer
+    if timer_job:
+        w2.after_cancel(timer_job)
+    
+    # Destroy all widgets in w2 except dataLabel
+    for widget in w2.winfo_children():
+        widget.destroy()
+    
+    # Create end screen content
+    myFont = font.Font(family='Helvetica', size=15)
+    smallFont = font.Font(family='Helvetica', size=12)
+    # Title
+    titleLabel = Label(w2, text="Test Session Complete!", font=(myFont.actual()['family'], 20, 'bold'))
+    titleLabel.pack(pady=20)
+    
+    # Main container frame for three-column layout
+    mainFrame = Frame(w2)
+    mainFrame.pack(fill=BOTH, expand=True, padx=20, pady=10)
+    
+    # Overall stats section (left column)
+    overallFrame = Frame(mainFrame, relief="solid", borderwidth=1, padx=15, pady=15)
+    overallFrame.pack(side=LEFT, fill=BOTH, expand=True, padx=5)
+    
+    overall_correct = all_stats_last["correct"]
+    overall_total = all_stats_last["total"]
+    overall_accuracy = f'{round(overall_correct / overall_total * 100)}%' if overall_total > 0 else '—'
+    overall_time = avg_times(all_times_last)
+    
+    Label(overallFrame, text="Overall Stats", font=(myFont.actual()['family'], 14, 'bold'), anchor="w").pack(anchor="w", pady=(0, 10))
+    Label(overallFrame, text=f"Accuracy: {overall_accuracy}", font=myFont, anchor="w").pack(anchor="w", pady=5)
+    Label(overallFrame, text=f"Questions Answered: {overall_total}", font=smallFont, anchor="w").pack(anchor="w", pady=5)
+    Label(overallFrame, text=f"Correct: {overall_correct}", font=smallFont, anchor="w").pack(anchor="w", pady=5)
+    Label(overallFrame, text=f"Incorrect: {overall_total - overall_correct}", font=smallFont, anchor="w").pack(anchor="w", pady=5)
+    Label(overallFrame, text=f"Avg Time: {overall_time}", font=smallFont, anchor="w").pack(anchor="w", pady=5)
+    
+    # Domain breakdown section (middle column)
+    domainFrame = Frame(mainFrame, relief="solid", borderwidth=1, padx=15, pady=15)
+    domainFrame.pack(side=LEFT, fill=BOTH, expand=True, padx=5)
+    
+    Label(domainFrame, text="Domain Breakdown", font=(myFont.actual()['family'], 14, 'bold'), anchor="w").pack(anchor="w", pady=(0, 10))
+    for domain in domain_flags:
+        domain_accuracy = f'{round(domain_stats_last[domain]["correct"] / domain_stats_last[domain]["total"] * 100)}%' if domain_stats_last[domain]["total"] > 0 else '—'
+        domain_label = "Conventions" if domain == "Standard English Conventions" else domain
+        Label(domainFrame, text=f"{domain_label}: {domain_accuracy}", font=smallFont, anchor="w").pack(anchor="w", pady=3)
+        Label(domainFrame, text=f"  ({domain_stats_last[domain]['correct']}/{domain_stats_last[domain]['total']})", font=smallFont, anchor="w").pack(anchor="w", pady=1)
+    
+    # Difficulty breakdown section (right column)
+    diffFrame = Frame(mainFrame, relief="solid", borderwidth=1, padx=15, pady=15)
+    diffFrame.pack(side=LEFT, fill=BOTH, expand=True, padx=5)
+    
+    Label(diffFrame, text="Difficulty Breakdown", font=(myFont.actual()['family'], 14, 'bold'), anchor="w").pack(anchor="w", pady=(0, 10))
+    for difficulty in difficulty_flags:
+        diff_accuracy = f'{round(difficulty_stats_last[difficulty]["correct"] / difficulty_stats_last[difficulty]["total"] * 100)}%' if difficulty_stats_last[difficulty]["total"] > 0 else '—'
+        Label(diffFrame, text=f"{difficulty}: {diff_accuracy}", font=smallFont, anchor="w").pack(anchor="w", pady=3)
+        Label(diffFrame, text=f"  ({difficulty_stats_last[difficulty]['correct']}/{difficulty_stats_last[difficulty]['total']})", font=smallFont, anchor="w").pack(anchor="w", pady=1)
+    
+    # Close button
+    closeButton = Button(w2, text="Close Window", command=lambda: (w2.destroy(), update_start_button()), font=myFont)
+    closeButton.pack(pady=20)
+
 def submit():
-    global numCorrect, numIncorrect, correct, wasCorrect
-    if len(filteredQuestions) <= 1:
+
+    global numCorrect, numIncorrect, correct, wasCorrect, currentQid
+    if len(qUncompleted) <= 1:
         submitButton.config(text="Complete test")
     wasCorrect = choice.get() == correct
     if wasCorrect:
@@ -518,58 +621,58 @@ def submit():
     else:
         numIncorrect += 1
     record_answer(currentDom, currentDiff, wasCorrect)
+    
+    # Move the answered question from qUncompleted to qCompleted
+    if len(qUncompleted) > 0:
+        qUncompleted.pop(0)
+        qCompleted.append(currentQid)
+    
     try:
         correct, r = rand_question()
-    except ValueError:
-        dataLabel.destroy()
-        if 'tableFrame' in globals() and tableFrame is not None:
-            tableFrame.destroy()
-        if 'chartFrame' in globals() and chartFrame is not None:
-            chartFrame.destroy()
-        passage.destroy()
-        question.destroy()
-        ansA.destroy()
-        ansB.destroy()
-        ansC.destroy()
-        ansD.destroy()
-        infoLabel.destroy()
-        submitButton.destroy()
-        w2.minsize(500, 350)
-        print('out of questions!')
+    except (ValueError, IndexError):
+        show_end_screen()
 
 def skip():
-    global correct
-    if len(filteredQuestions) <= 1:
+    global correct, currentQid
+    if len(qUncompleted) <= 1:
         submitButton.config(text="Complete test")
+    # Skipped questions are just marked as completed without recording stats
+    
+    # Move the skipped question from qUncompleted to qCompleted
+    if len(qUncompleted) > 0:
+        qUncompleted.pop(0)
+        qCompleted.append(currentQid)
+    
     try:
         correct, r = rand_question()
-    except ValueError:
-        dataLabel.destroy()
-        if 'tableFrame' in globals() and tableFrame is not None:
-            tableFrame.destroy()
-        if 'chartFrame' in globals() and chartFrame is not None:
-            chartFrame.destroy()
-        passage.destroy()
-        question.destroy()
-        ansA.destroy()
-        ansB.destroy()
-        ansC.destroy()
-        ansD.destroy()
-        infoLabel.destroy()
-        submitButton.destroy()
-        w2.minsize(500, 350)
-        print('out of questions!')
+    except (ValueError, IndexError):
+        show_end_screen()
+
+def mark():
+    global currentQid
+    # Add the current question ID to marked questions if not already marked
+    if currentQid not in markedQuestions:
+        markedQuestions.append(currentQid)
+        markButton.config(relief=SUNKEN, bg="lightblue")
+    else:
+        markedQuestions.remove(currentQid)
+        markButton.config(relief=RAISED, bg="SystemButtonFace")
 
 def testing_window():
-    global passage, question, ansA, ansB, ansC, ansD, choice, correct, dataLabel, infoLabel, submitButton, w2, all_times_last, contentFrame, tableFrame, chartFrame
+    global passage, question, ansA, ansB, ansC, ansD, choice, correct, dataLabel, infoLabel, submitButton, skipButton, markButton, w2, all_times_last, contentFrame, tableFrame, chartFrame, currentQid, filteredQuestions, qUncompleted
+    
+    # Rebuild the filtered questions for this session
+    make_set()
     
     w2 = Toplevel()
     w2.title('Testing Window')
     w2.minsize(850, 250)
     myFont = font.Font(family='Helvetica', size=15)
+    mySmallFont = font.Font(family='Helvetica', size=10)
     
     tableFrame = None
     chartFrame = None
+    currentQid = None  # Reset current question ID for new session
     
     #reset last dictionaries
     for d in domain_stats_last.values(): d["correct"] = d["total"] = 0
@@ -581,8 +684,8 @@ def testing_window():
 
     choice = StringVar(value='', master=w2)
     
-    dataLabel = Label(w2, text="data row")
-    dataLabel.pack(fill="x", padx=2, pady=2)
+    dataLabel = Label(w2, text="data row", font=mySmallFont)
+    dataLabel.pack(fill="x", pady=2)
     
     contentFrame = Frame(w2)
     contentFrame.pack(anchor='w', expand=True, fill=BOTH)
@@ -610,13 +713,19 @@ def testing_window():
 
     infoLabel = Label(w2, text="info row", font=myFont); infoLabel.pack(side="left")
 
-    submitButton = Button(w2, text="Submit", command=submit, font=myFont); submitButton.pack(side="right")
-    skipButton = Button(w2, text="Skip", command=skip, font=myFont); skipButton.pack(side="right")
+    buttonFrame = Frame(w2)
+    buttonFrame.pack(side="right")
+    markButton = Button(buttonFrame, text="Mark", command=mark, font=myFont); markButton.pack(side="left", padx=2)
+    skipButton = Button(buttonFrame, text="Skip", command=skip, font=myFont); skipButton.pack(side="left", padx=2)
+    submitButton = Button(buttonFrame, text="Submit", command=submit, font=myFont); submitButton.pack(side="left", padx=2)
 
     update_timer()
 
     correct, r = rand_question()
 
+    # Update start button when testing window closes
+    w2.protocol("WM_DELETE_WINDOW", lambda: (w2.destroy(), update_start_button()))
+    
     w2.mainloop()
 
 #frames
@@ -650,11 +759,14 @@ for x in range(6):
     topFrame.grid_columnconfigure(x,weight=1)
 topFrame.grid_rowconfigure(0, weight=1)
 topFrame.grid_rowconfigure(1, weight=2)
-Button(topFrame, text="Start",command=testing_window).grid(row=0, column=0, columnspan=3, sticky="nsew")
+startButton = Button(topFrame, text="Start",command=testing_window)
+startButton.grid(row=0, column=0, columnspan=3, sticky="nsew")
 optionsFrame.grid(row=0, column=3, columnspan=3, sticky="nsew")
 Button(topFrame, text='Reset data', command=clear_usrData).grid(row=1, column=0, columnspan=2, sticky="nsew")
-Button(topFrame, text='Reset questions', command=reset_questions).grid(row=1, column=2, columnspan=2, sticky="nsew")
-Button(topFrame, text="Create set", command=make_set).grid(row=1, column=4, columnspan=2, sticky="nsew")
+resetQuestionsButton = Button(topFrame, text='Reset questions', command=reset_questions)
+resetQuestionsButton.grid(row=1, column=2, columnspan=2, sticky="nsew")
+createSetButton = Button(topFrame, text="Create set", command=make_set)
+createSetButton.grid(row=1, column=4, columnspan=2, sticky="nsew")
 make_set()
 
 bottomFrame.pack(fill=BOTH, expand=True)
